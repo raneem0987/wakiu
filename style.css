@@ -1125,13 +1125,13 @@ margin-top: 107px;
 .footer{
     background-color: #000000c8;
     width: 100%;
-    height: 225px;
+    height: 317px;
 }
 
 .footer .imgs{
     display: flex;
     justify-content: center;
-    /* margin: 21px; */
+    margin-top: 72px;
     gap: 21px;
 }
 
@@ -1144,5 +1144,28 @@ margin-top: 107px;
 
 .footer hr{
     border-bottom: 1px solid #3f3f3f;
-    padding: 65px 0
+    padding: 65px 0;
+    margin-top: 64px;
+}
+
+.words{
+    color: rgba(247, 247, 247, 0.836);
+    font-size: smaller;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 3px;
+}
+
+.words a{
+    color: rgba(247, 247, 247, 0.836);
+    text-decoration: none;
+}
+
+.words .communication{
+    margin-top: 15px;
+}
+
+.words .call{
+    margin-top: 14px;
+    margin-right: -195px;
 }
