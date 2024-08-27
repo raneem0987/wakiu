@@ -4,7 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>website</title>
-        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.min.css">
     </head>
     <body>
         <header>
@@ -12,17 +13,27 @@
                 <div class="logo">
                     <a href="index.html">ROXINA</a>
                 </div>
+                
                 <ul class="links" type="none">
-                    <li><a href="index.html">HOME</a></li>
+                    <li>
+                        <a href="index.html">HOME</a>
+                        <ul class="contain">
+                            <li><a href="#"> Creative Agency </a></li>
+                            <li><a href="#"> Design Studio </a></li>
+                            <li><a href="#"> Digital Agency </a></li>
+                            <li><a href="#"> Construction </a></li>
+                            <li><a href="#"> Corporate </a></li>
+                          </ul>
+                    </li>
                     <li><a href="index.html">FEATURES</a></li>
                     <li><a href="index.html">PORTFOLIO</a></li>
                     <li><a href="index.html">ELEMENTS</a></li>
                     <li><a href="index.html">TEAM</a></li>
                     <li><a href="index.html">BLOG</a></li>
                     <li><a href="index.html">CONTACT</a></li>
-                    <li><img src="./images/cart.png" alt="cart.png"></li>
-                    <li><img src="./images/search.png" alt="search.png"></li>
-                    <li><img src="./images/menu.png" alt="menu.png"></li>
+                    <li><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></li>
+                    <li><i class="fa-solid fa-magnifying-glass fa-rotate-90" style="color: #ffffff;"></i></li>
+                    <li><i class="fa-solid fa-chart-simple fa-rotate-270" style="color: #fcfcfc;"></i></li>
                 </ul>
                 <div class="shopping-btn">
                     <img src="/images/cart.png" alt="">
@@ -48,39 +59,53 @@
             </div>
 
             <div class="pixel">
-                <img src="./images/pen-tool.png" alt="pen-tool.png">
+                <div class="content" style="z-index: 2; position: absolute;">
+                <i class="fa-solid fa-pen-nib fa-rotate-by fa-2xl" style=" --fa-rotate-angle: 135deg;"></i>
                 <h5><a href="#" class="a1">PIXEL PERFECT</a></h5>
                 <p>Auersla, conse ctetur adipis icing lorem <br> ipsum dolor sit amet</p>
                 <a href="#" class="a2">LEARN MORE</a>
-                <div class="overlay"></div>
+            </div>
+                <div class="overlay" style="z-index: 1;"></div>
             </div>
 
             <div class="vector">
-                <img src="./images/vector.png" alt="vector.png">
+                <div class="contain2" style="z-index: 2; position: absolute;">
+                <i class="fa-solid fa-bezier-curve fa-xl"></i>
                 <h5><a href="#" class="a1">VECTOR SHAPES</a></h5>
                 <p>Auersla, conse ctetur adipis icing lorem <br> ipsum dolor sit amet</p>
                 <a href="#" class="a2">LEARN MORE</a>
             </div>
+            <div class="overlay2" style="z-index: 1;"></div>
+            </div>
 
             <div class="fonts">
-                <img src="./images/letter-r.png" alt="letter-r.png">
+                <div class="contain3" style="z-index: 2; position: absolute;">
+                <i class="fa-solid fa-r fa-2xl"></i>
                 <h5><a href="#" class="a1">GOOGLE FONTS</a></h5>
                 <p>Auersla, conse ctetur adipis icing lorem <br> ipsum dolor sit amet</p>
                 <a href="#" class="a2">LEARN MORE</a>
             </div>
+            <div class="overlay3" style="z-index: 1;"></div>
+            </div>
 
             <div class="layers">
-                <img src="./images/layer.png" alt="layer.png">
+                <div class="contain4" style="z-index: 2; position: absolute;">
+                <i class="fa-solid fa-layer-group fa-2xl"></i>
                 <h5><a href="#" class="a1">EASY LAYERS</a></h5>
                 <p>Auersla, conse ctetur adipis icing lorem <br> ipsum dolor sit amet</p>
                 <a href="#" class="a2">LEARN MORE</a>
             </div>
+            <div class="overlay4" style="z-index: 1;"></div>
+            </div>
 
             <div class="grid">
-                <img src="./images/menu-bar.png" alt="menu-bar.png">
+                <div class="contain5" style="z-index: 2; position: absolute;">
+                <i class="fa-solid fa-bars fa-2xl"></i>
                 <h5><a href="#" class="a1">BOOTSTRAP GRID</a></h5>
                 <p>Auersla, conse ctetur adipis icing lorem <br> ipsum dolor sit amet</p>
                 <a href="#" class="a2">LEARN MORE</a>
+            </div>
+            <div class="overlay5" style="z-index: 1;"></div>
             </div> 
         </div>
 
@@ -173,19 +198,19 @@
             <img src="./images/team-02.jpg" alt="team-02.jpg" class="team1">
             <img src="./images/team-01.jpg" alt="team-01.jpg" class="team2">
             <img src="./images/team-03.jpg" alt="team-03.jpg" class="team3">
-            <span class="left"><img src="./images/angle-left.png" alt="angle-left.png"></span>
-            <span class="right"><img src="./images/angle-right.png" alt="angle-right.png"></span>
+            <span class="left"><i class="fa-solid fa-angle-up fa-rotate-270 fa-2xl"></i></span>
+            <span class="right"><i class="fa-solid fa-angle-up fa-rotate-90 fa-2xl"></i></span>
             <p> Martin loves gossiping code on his iPhone. Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <br> reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         </div>
 
         <div class="percent">
             <div class="projects">
-                <img src="./images/project.png" alt="project.png">
+                <i class="fa-solid fa-file-shield fa-2xl" style="color: #a8a8a8;"></i>
                 <h3>505</h3>
                 <p>TOTAL PROJECTS</p>
             </div>
             <div class="clients">
-                <img src="./images/smiling.png" alt="">
+                <i class="fa-regular fa-face-smile fa-2xl" style="color: #a8a8a8;"></i>
                 <h3>202</h3>
                 <p>SATISFIED CLIENTS</p>
             </div>
@@ -200,6 +225,28 @@
                 <span>We always listen to our clients.</span>
                 <img src="./images/divider.png" alt="">
             </div>
+        </div>
+
+        <div class="end">
+            <a href="#" class="png1"><img src="images/logo-01.png" alt="logo-01.png"></a>
+            <a href="#" class="png2"><img src="images/logo-02.png" alt="logo-02.png"></a>
+            <a href="#" class="png3"><img src="images/logo-03.png" alt="logo-03.png"></a>
+        </div>
+
+        <div class="footer">
+            <div class="imgs">
+                <i class="fa-brands fa-facebook-f" style="color: #dcdcdc;"></i>
+                <i class="fa-brands fa-twitter" style="color: #dcdcdc;"></i>
+                <i class="fa-brands fa-dribbble" style="color: #dcdcdc;"></i>
+                <i class="fa-brands fa-google-plus-g" style="color: #dcdcdc;"></i>
+                <i class="fa-brands fa-vimeo-v" style="color: #dcdcdc;"></i>
+            </div>
+
+            <hr>
+            <p>Copyright © 2022 <a href="https://hasthemes.com/">Hasthemes</a>. All Rights Reserved.</p>
+            <span><p>Call :</p>+201068891144</span>
+            <span><p>EMAIL :</p>raneemsameh@std.mans.edu.eg</span>
+            <i class="fa-solid fa-angle-up" style="color: #525252;"></i>
         </div>
     </body>
 </html>
