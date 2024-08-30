@@ -1,0 +1,1171 @@
+header {
+    background-image: url("https://html.waituk.com/roxine/img/big-14.jpg");
+    width: 100%;
+    height: 721px;
+    background-size: cover;
+    background-color: rgba(15, 15, 15, 0.664);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    margin-left: -87px;
+    margin-top: 2px;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+.navbar .links{
+    display: flex;
+    gap: 24px;
+    margin-left: 581px;
+    position: absolute;
+    margin-top: 46px;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.navbar .links li {display: inline-block;}
+.navbar .links li:hover {background: #5555551d;}
+.navbar .links li:hover .contain {display: block;}
+
+.navbar .links li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: small;
+}
+
+.navbar .links .contain li a{
+    text-decoration: none;
+  color: rgb(109, 109, 109);
+  font-size: 12px;
+  padding: 7px;
+  display: inline-block;
+}
+
+.navbar .links li .contain{
+    position: absolute;
+    width: 215px;
+    display: none;
+    margin-top: 11px;
+    margin-left: -32px;
+}
+
+.navbar .links li .contain li{
+    background: #f8f8f8; 
+  display: block; 
+}
+
+.navbar .links li .contain li a {display:block !important;} 
+.navbar .links li .contain li:hover {background: #eaeaeaf5;}
+
+.navbar .links i{
+    margin-left: 9px;
+    display: flex;
+    gap: 24px;
+}
+
+.second-header{
+    margin: 0;
+    margin-left: -705px;
+    margin-top: 419px;
+    position: relative;
+}
+
+.second-header .title{
+    font-size: xx-large;
+    color: white;
+    margin-left: -1160px;
+    margin-top: -66px;
+    position: absolute;
+    font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    cursor: context-menu;
+}
+
+.second-header h1{
+    color: white;
+    font-size: 153px;
+    margin-left: -1145px;
+    margin-top: 40px;
+    position: absolute;
+    font-family: sans-serif;
+    cursor: context-menu;
+}
+
+.second-header .discrip{
+    color: white;
+    position: absolute;
+    margin-left: -1160px;
+    margin-top: 229px;
+    font-size: larger;
+    cursor: context-menu;
+}
+
+.second-header button{
+    position: absolute;
+    margin-left: -1160px;
+    margin-top: 388px;
+    width: 273px;
+    height: 58px;
+    background-color: #5656e9;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.second-header button:hover{
+    background-color: #4949d3;
+}
+
+.second-part{
+    display: grid;
+    grid-template-areas: ' solution pixel vector'
+                         ' fonts layer grid' ;
+grid-gap: 10px;
+margin-left: 194px;
+margin-top: 107px;
+}
+
+.second-part .solution{
+    margin: 0;
+    /* margin-top: 100px;
+    margin-left: 233px; */
+}
+
+.second-part .solution p{
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: #5a5858;
+}
+
+.second-part .solution h2{
+    font-size: 43px;
+    font-family: sans-serif;
+    color: #3c3838;
+    margin-top: -11px;
+}
+
+.second-part .solution span{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #424242;
+}
+
+.second-part .pixel{
+    background-color: #f2f3f8;
+    width: 353px;
+    height: 246px;
+    margin-left: -127px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overlay {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+  
+.second-part .pixel:hover .overlay {
+    width: 100%;
+    
+}
+
+.second-part .pixel i{
+    width: 50px;
+    margin-top: 76px;
+    margin-left: 141px;
+    color: #4e4f50;
+}
+
+.second-part .pixel i:hover{
+    color: #4949d3;
+}
+
+.second-part .pixel h5 .a1{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 109px;
+    font-family: sans-serif;
+    color: #474545;
+    margin-top: 20px;
+}
+
+.second-part .pixel h5 .a1:hover{
+    color: #4949d3;
+
+}
+
+.second-part .pixel p{
+    margin-left: 55px;
+    margin-top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #151414;
+}
+
+.second-part .pixel .a2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 124px;
+    position: absolute;
+    top: 108%;
+    font-size: small;
+}
+
+.second-part .pixel .a2:hover{
+    color: #4949d3;
+}
+
+.second-part .vector{
+    background-color: #f2f3f8;
+    width: 353px;
+    height: 246px;
+    margin-left: -127px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.overlay2 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+  
+.second-part .vector:hover .overlay2 {
+    width: 100%;
+    
+}
+
+.second-part .vector i{
+    width: 50px;
+    margin-top: 76px;
+    margin-left: 153px;
+    transform: rotateZ(20deg);
+}
+
+.second-part .vector i:hover{
+    color: #4949d3;
+}
+
+.second-part .vector h5 .a1{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 109px;
+    font-family: sans-serif;
+    color: #474545;
+    margin-top: 20px;
+}
+
+.second-part .vector h5 .a1:hover{
+    color: #4949d3;
+
+}
+
+.second-part .vector p{
+    margin-left: 55px;
+    margin-top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #151414;
+}
+
+.second-part .vector .a2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 124px;
+    position: absolute;
+    top: 108%;
+    font-size: small;
+}
+
+.second-part .vector .a2:hover{
+    color: #4949d3;
+}
+
+.second-part .fonts{
+    background-color: #f2f3f8;
+    width: 353px;
+    height: 246px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -45px;
+    margin-top: 63px;
+}
+
+.overlay3 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+  
+.second-part .fonts:hover .overlay3 {
+    width: 100%;
+    
+}
+
+.second-part .fonts i{
+    width: 50px;
+    margin-top: 76px;
+    margin-left: 162px;
+    transform: rotateZ(0deg);
+    color: #9e9e9e;
+}
+
+.second-part .fonts i:hover{
+    color: #4949d3;
+}
+
+.second-part .fonts h5 .a1{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 109px;
+    font-family: sans-serif;
+    color: #474545;
+    margin-top: 20px;
+}
+
+.second-part .fonts h5 .a1:hover{
+    color: #4949d3;
+
+}
+
+.second-part .fonts p{
+    margin-left: 56px;
+    margin-top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #151414;
+}
+
+.second-part .fonts .a2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 124px;
+    position: absolute;
+    top: 110%;
+    font-size: small;
+}
+
+.second-part .fonts .a2:hover{
+    color: #4949d3;
+}
+
+.second-part .layers{
+    background-color: #f2f3f8;
+    width: 353px;
+    height: 246px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -139px;
+    margin-top: 63px;
+}
+
+.overlay4 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+  
+.second-part .layers:hover .overlay4 {
+    width: 100%;
+    
+}
+
+.second-part .layers i{
+    width: 50px;
+    margin-top: 76px;
+    margin-left: 147px;
+    transform: rotateZ(0deg);
+    color: #c5c5c5;
+}
+
+.second-part .layers i:hover{
+    color: #4949d3;
+}
+
+.second-part .layers h5 .a1{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 109px;
+    font-family: sans-serif;
+    color: #474545;
+    margin-top: 20px;
+}
+
+.second-part .layers h5 .a1:hover{
+    color: #4949d3;
+
+}
+
+.second-part .layers p{
+    margin-left: 55px;
+    margin-top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #151414;
+}
+
+.second-part .layers .a2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 124px;
+    position: absolute;
+    top: 110%;
+    font-size: small;
+}
+
+.second-part .layers .a2:hover{
+    color: #4949d3;
+}
+
+.second-part .grid{
+    background-color: #f2f3f8;
+    width: 353px;
+    height: 246px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: -128px;
+    margin-top: 63px;
+}
+
+.overlay5 {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+  
+.second-part .grid:hover .overlay5 {
+    width: 100%;
+    
+}
+
+.second-part .grid i{
+    width: 50px;
+    margin-top: 76px;
+    margin-left: 155px;
+    transform: rotateZ(0deg);
+    color: #cccccc;
+}
+
+.second-part .grid i:hover{
+    color: #4949d3;
+}
+
+.second-part .grid h5 .a1{
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+    margin-left: 109px;
+    font-family: sans-serif;
+    color: #474545;
+    margin-top: 20px;
+}
+
+.second-part .grid h5 .a1:hover{
+    color: #4949d3;
+
+}
+
+.second-part .grid p{
+    margin-left: 55px;
+    margin-top: -5px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: small;
+    color: #151414;
+}
+
+.second-part .grid .a2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 124px;
+    position: absolute;
+    top: 110%;
+    font-size: small;
+}
+
+.second-part .grid .a2:hover{
+    color: #4949d3;
+}
+
+.third-part {
+    background-image: url("https://html.waituk.com/roxine/img/big-15.jpg");
+    width: 100%;
+    height: 421px;
+    background-size: cover;
+    background-color: rgba(15, 15, 15, 0.664);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    margin-top: 115px;
+}
+
+.third-part p{
+    color: #f2f3f8;
+    font-size: xx-large;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 117px;
+    margin-left: 594px;
+}
+
+.third-part h3{
+    color: #f2f3f8;
+    font-size: xxx-large;
+    font-family: cursive;
+    margin-top: 164px;
+    margin-left: 341px;
+    position: absolute;
+}
+
+.third-part button{
+    position: absolute;
+    width: 273px;
+    height: 58px;
+    background-color: #5656e9;
+    color: white;
+    border-radius: 7px;
+    border-style: none;
+    cursor: pointer;
+    font-size: large;
+    margin-top: 297px;
+    margin-left: 629px;
+}
+
+.third-part button:hover{
+    background-color: #4949d3;
+}
+
+.tracks{
+    display: flex;
+    justify-content: center;
+}
+
+.tracks h2{
+    color: #55565b;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    margin-top: 84px;
+    margin-left: -29px;
+}
+
+.tracks .options{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 'all . ui . program . photo . ecom';
+    margin-top: 204px;
+    margin-left: 9px;
+    position: absolute;
+    font-size: small;
+}
+
+.tracks .options .all{
+    cursor: pointer;
+}
+
+.tracks .all:hover{
+    color: #4949d3;
+}
+
+.tracks .options .ui{
+    cursor: pointer;
+}
+
+.tracks .options .ui:hover{
+    color: #4949d3;
+}
+
+.tracks .options .program{
+    cursor: pointer;
+}
+
+.tracks .options .program:hover{
+    color: #4949d3;
+}
+
+.tracks .options .photo{
+    cursor: pointer;
+}
+
+.tracks .options .photo:hover{
+    color: #4949d3;
+}
+
+.tracks .options .ecom{
+    cursor: pointer;
+}
+
+.tracks .options .ecom:hover{
+    color: #4949d3;
+}
+
+.tracks .options span{
+    margin-top: 16px;
+}
+
+.products-pictures {
+    
+    display: grid;
+    /* gap: 20px; */
+    grid-template-areas: 'pillow bags powder '
+                         'towel creame pancake';
+}
+
+.products-pictures img{
+    max-width: 486px;
+
+}
+
+.products-pictures .pillow{
+    /* width: 20px; */
+    margin-top: 143px;
+}
+
+.products-pictures .bags{
+    /* width: 20px; */
+    margin-top: 143px;
+    margin-left: 513px;
+    position: absolute;
+}
+
+.products-pictures .powder{
+    /* width: 20px; */
+    margin-top: 143px;
+    margin-left: 1027px;
+    position: absolute;
+}
+
+.products-pictures .towel{
+    /* width: 20px; */
+    margin-top: 501px;
+    position: absolute;
+}
+
+.products-pictures .creame{
+    /* width: 20px; */
+    margin-top: 501px;
+    margin-left: 513px;
+    position: absolute;
+}
+
+.products-pictures .pancake{
+    /* width: 20px; */
+    margin-top: 501px;
+    margin-left: 1027px;
+    position: absolute;
+}
+
+.brand{
+    margin-top: 463px;
+    margin-left: 195px;
+}
+
+.brand h6{
+    font-size: 1.875rem;
+    font-family: 'Josefin Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #5a5858;
+    text-transform: uppercase;
+    letter-spacing: .2143rem;
+}
+
+.brand h2{
+    color: #514e4e;
+    margin-top: -53px;
+    font-size: xxx-large;
+}
+
+.brand p{
+    color: #55565b;
+    margin-top: -22px;
+    font-size: x-large;
+}
+
+.lorem{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -38px;
+    margin-top: 60px;
+}
+
+.lorem .lorem-left{
+    margin-left: -634px;
+    position: absolute;
+}
+
+.lorem .lorem-left p{
+    color: #55565b;
+    line-height: 26px;
+}
+
+.lorem .lorem-left button{
+    width: 241px;
+    height: 51px;
+    color: #fff;
+    background-color: #151414;
+    border: .1429rem solid #000;
+    border-radius: 4px;
+    font-size: large;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+.lorem .lorem-left button:hover{
+    color: #151414;
+    background-color: #fff;
+}
+
+.lorem .lorem-right{
+    margin-left: 569px;
+    position: absolute;
+}
+
+.lorem .lorem-right p{
+    color: #55565b;
+    line-height: 26px;
+}
+
+.lorem .lorem-right .links{
+    display: grid;
+    grid-template-areas: 'track1 . . . . tracka2';
+    gap: 61px;
+}
+
+.lorem .lorem-right .links ul{
+    display: grid;
+    gap: 15px;
+    font-size: smaller;
+    font-family: sans-serif;
+    margin-left: -38px;
+    line-height: 16px;
+}
+
+.lorem .lorem-right .links ul a{
+    text-decoration: none;
+    color: #5656e9;
+    cursor: pointer;
+}
+
+.culture{
+    background-image: url(https://html.waituk.com/roxine/img/big-01.jpg);
+    width: 100%;
+    height: 983px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 466px;
+}
+
+.contain-culture{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    margin-top: 62px;
+    margin-left: 39%;
+}
+
+.culture .work-place{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #55565b;
+    letter-spacing: 2px;
+}
+
+.culture .contain-culture h3{
+    color: #4a4a4a;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-left: -80px;
+    margin-top: -15px;
+}
+
+.culture .contain-culture span{
+    color: #525252;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-left: -131px;
+    margin-top: -30px;
+}
+
+.culture .contain-culture img{
+    width: 70px;
+    margin-left: 87px;
+}
+
+.culture .contain-culture .parag p{
+    color: #4a4a4a;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-left: -358px;
+    margin-top: 137px;
+    /* word-spacing: 7px; */
+    /* letter-spacing: 1px; */
+    line-height: 32px;
+    text-align: center;
+}
+
+.team{
+    margin-left: 14%;
+    margin-top: 105px;
+}
+
+.team p{
+    font-size: x-large;
+    font-family: sans-serif;
+    color: #55565b;
+    letter-spacing: 2px;
+}
+
+.team h3{
+    color: #4a4a4a;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    margin-left: -3px;
+    margin-top: -15px;
+}
+
+.team span{
+    color: #525252;
+    font-size: larger;
+    font-family: sans-serif;
+    margin-left: -3px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.img-team .team1{
+    width: 24%;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 208px;
+    position: absolute;
+}
+
+.img-team .team2{
+    width: 24%;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.img-team .team3{
+    width: 24%;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+.img-team .left i{
+    width: 45px;
+    margin-top: 18%;
+    margin-left: 154px;
+    cursor: pointer;
+    color: #c2c2c2;
+}
+
+.img-team .left i:hover{
+    color: #000;
+}
+
+.img-team .right i{
+    width: 45px;
+    margin-top: 18%;
+    margin-left: 1167px;
+    cursor: pointer;
+    color: #c2c2c2;
+}
+
+.img-team .right i:hover{
+    color: #000;
+}
+
+.img-team p{
+    color: #525252;
+    font-family: sans-serif;
+    margin-top: 308px;
+    margin-left: 199px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.percent{
+    background-image: url("https://html.waituk.com/roxine/img/visual-small-11.jpg");
+    width: 100%;
+    height: 358px;
+    background-size: cover;
+    background-color: rgba(15, 15, 15, 0.664);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 137px;
+}
+
+.percent .projects{
+    /* padding: 27px 112px 20px; */
+    
+    display: grid;
+    gap: 1px;
+}
+
+.percent .projects:hover{
+    background-color: #4949d3;
+    /* width: 322px;
+    height: 357px; */
+    width: 322px;
+    height: 358px;
+    position: absolute;
+}
+
+.percent .projects i{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 160px;
+}
+
+.percent .projects h3{
+    font-family: 'waituk-icomoon';
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #a0a0a0;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 159px;
+    font-size: large;
+}
+
+.percent .projects p{
+    color: #ececef;
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 101px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.percent .clients{
+    /* padding: 27px 112px 20px; */
+    width: 322px;
+    height: 89px;
+    display: grid;
+    gap: 1px;
+    position: absolute;
+    margin-left: 332px;
+    /* margin-top: -88px; */
+}
+
+.percent .clients:hover{
+    background-color: #4949d3;
+    width: 322px;
+    height: 357px;
+}
+
+.percent .clients i{
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 153px;
+    width: 45px;
+}
+
+.percent .clients h3{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    color: #a0a0a0;
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 154px;
+    font-size: large;
+}
+
+.percent .clients p{
+    color: #ececef;
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 77px;
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.ceo{
+    background-color: #efeeee;
+    width: 100%;
+    height: 318px;
+}
+
+.ceo .hear{
+
+}
+
+.ceo .hear p{
+    color: #a0a0a0;
+    font-family: sans-serif;
+    position: absolute;
+    margin-top: 61px;
+    margin-left: 43%;
+}
+
+.ceo .hear h3{
+    color: #494949;
+    font-family: sans-serif;
+    position: absolute;
+    margin: 0;
+    margin-top: 97px;
+    margin-left: 41%;
+}
+
+.ceo .hear span{
+    color: #a0a0a0;
+    font-family: sans-serif;
+    font-size: larger;
+    position: absolute;
+    margin-top: 131px;
+    margin-left: 37%;
+}
+
+.ceo .hear img{
+    position: absolute;
+    margin-left: 44%;
+    margin-top: 167px;
+}
+
+.end a img{
+    margin-top: 66px;
+    padding-left: 296px;
+}
+
+.footer{
+    background-color: #000000c8;
+    width: 100%;
+    height: 317px;
+}
+
+.footer .imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 21px;
+}
+
+.footer .imgs i{
+    display: inline-block;
+    outline: medium;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+.footer hr{
+    border-bottom: 1px solid #3f3f3f;
+    padding: 65px 0;
+    margin-top: 64px;
+}
+
+.words{
+    color: rgba(247, 247, 247, 0.836);
+    font-size: smaller;
+    display: flex;
+    justify-content: space-around;
+    word-spacing: 3px;
+}
+
+.words a{
+    color: rgba(247, 247, 247, 0.836);
+    text-decoration: none;
+}
+
+.words .communication{
+    margin-top: 15px;
+}
+
+.words .call{
+    margin-top: 14px;
+    margin-right: -195px;
+}
