@@ -1046,7 +1046,7 @@ header {
     border-radius: 0 0 12px 12px;
 }
 
-.big-team .img-team .team-member1 .buttom .s-buttom{
+.big-team .img-team .team-member1 .buttom .s-buttom {
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -1123,7 +1123,7 @@ header {
     border-radius: 0 0 12px 12px;
 }
 
-.big-team .img-team .team-member2 .buttom .s-buttom{
+.big-team .img-team .team-member2 .buttom .s-buttom {
     display: flex;
     justify-content: center;
     padding: 2rem 0;
@@ -1197,7 +1197,7 @@ header {
     border-radius: 0 0 12px 12px;
 }
 
-.big-team .img-team .team-member3 .buttom .s-buttom{
+.big-team .img-team .team-member3 .buttom .s-buttom {
     display: flex;
     justify-content: center;
     padding: 2rem 0;
@@ -1596,8 +1596,46 @@ header {
     font-size: small;
 }
 
-@media screen and (max-width:600px) {
-    header{
-        width: 8.33%;
+     /* Tablet Screen */
+
+@media screen and (max-width:712px){
+
+    header,
+    .footer,
+    .ceo,
+    .culture,
+    .third-part,
+    .big-team {
+        width: 144%;
+    }
+
+    .second-part {
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 20px;
+        padding: 40px;
+    }
+
+    .pixel, .vector, .fonts, .layers, .grid{
+        width: 100%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .content, .contain2, .contain3, .contain4, .contain5 {
+        text-align: center;
+        position: relative;
+      }
+
+    .tracks {
+        padding: 5rem 0 75px 17rem;
+    }
+
+    .ceo .people {
+        padding: 20px 0;
+    }
+
+    .contains1,
+    .contains3 {
+        max-width: 63%;
     }
 }
