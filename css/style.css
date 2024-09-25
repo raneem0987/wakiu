@@ -18,7 +18,7 @@ header {
     transition: all 1s linear;
 }
 
-.sticky {
+.container .sticky {
     position: sticky;
     top: 0;
     left: 0;
@@ -1160,37 +1160,73 @@ header {
 
 /* Tablet Screen */
 
-@media (min-width: 712px) and (max-width: 992px) {
+@media all and (max-width: 992px) {
 
     header,
     .footer,
-    .ceo,
     .culture,
     .third-part,
     .big-team {
-        width: 157%;
+        width: 102%;
     }
 
-    /* .second-part {
-        gap: 3rem;
-        display: flex;
+    .second-part .flex {
         flex-direction: column;
-    } */
-
-    .flex {
-        max-width: 600px;
+        display: flex;
     }
 
-    .pixel,
-    .vector,
-    .fonts,
-    .layers,
-    .grid,
-    .solution {
-        /* width: 100%; */
-        margin-bottom: 20px;
-        position: relative;
-        margin-left: -0.5rem;
+    .second-part .solution p,
+    .second-part .solution h2 {
+        font-size: 3rem;
+    }
+
+    .second-part .solution span {
+        font-size: x-large;
+    }
+
+    .second-part .flex .pixel,
+    .second-part .flex .vector,
+    .second-part .flex .fonts,
+    .second-part .flex .layers,
+    .second-part .flex .grid,
+    .second-part .flex .solution {
+        width: 101%;
+        margin-bottom: 15px;
+        text-align: center;
+        height: 19rem;
+    }
+
+    .second-part .pixel .content,
+    .second-part .vector .contain2,
+    .second-part .fonts .contain3,
+    .second-part .layers .contain4,
+    .second-part .grid .contain5 {
+        width: 40rem;
+        font-size: large;
+    }
+
+    .second-part .pixel h5,
+    .second-part .vector h5,
+    .second-part .fonts h5,
+    .second-part .layers h5,
+    .second-part .grid h5 {
+        padding-top: 21px;
+    }
+
+    .second-part .pixel p,
+    .second-part .vector p,
+    .second-part .fonts p,
+    .second-part .layers p,
+    .second-part .grid p {
+        font-size: smaller;
+    }
+
+    .second-part .pixel .a2,
+    .second-part .vector .a2,
+    .second-part .fonts .a2,
+    .second-part .layers .a2,
+    .second-part .grid .a2 {
+        font-size: smaller;
     }
 
     .content,
@@ -1213,11 +1249,36 @@ header {
     }
 
     .tracks {
-        padding: 5rem 0 75px 17rem;
+        display: flex;
+        flex-direction: column;
+        padding: 3rem 0;
+        justify-content: center;
+        text-align: center;
+        width: 43rem;
+    }
+
+    .lorem {
+        padding: 1rem 38px;
+    }
+
+    .ceo{
+        width: 83%;
+    }
+
+    .ceo .hear{
+        width: 90%;
+    }
+
+    .ceo .contains1,
+    .ceo .contains3,
+    .ceo .contains2,
+    .ceo .contains4 {
+        height: 74%;
     }
 
     .ceo .people {
         padding: 20px 0;
+        width: 100%;
     }
 
     .contains1,
@@ -1227,15 +1288,15 @@ header {
 }
 
 /*  mobile screen */
-@media (min-width: 375px) and (max-width: 667px) {
+@media all and (max-width: 500px) {
 
-     header,
+    header,
     .footer,
     .ceo,
     .culture,
     .third-part,
     .big-team {
-        width: 273%;
+        width: 363%;
         padding: 1rem;
     }
 
@@ -1259,7 +1320,7 @@ header {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 281%;
+        width: 371%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
@@ -1270,7 +1331,7 @@ header {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 55rem;
+        width: 88rem;
         font-size: xx-large;
     }
 
@@ -1305,6 +1366,10 @@ header {
         justify-content: center;
         text-align: center;
         width: 64rem;
+    }
+
+    .team{
+        padding: 0 15rem;
     }
 
     .team p {
@@ -1375,7 +1440,7 @@ header {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 281%;
+        width: 357%;
     }
 
     .ceo .people {
@@ -1398,7 +1463,7 @@ header {
 
     .ceo .contains2,
     .ceo .contains4 {
-        width: 80%;
+        width: 63%;
         height: 30%;
     }
 
