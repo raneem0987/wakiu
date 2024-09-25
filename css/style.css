@@ -184,7 +184,7 @@ header {
     grid-template-areas:
         ' solution pixel vector'
         ' fonts layer grid';
-    grid-gap: 22px;
+    grid-gap: 33px;
     padding: 4rem 0;
     /* justify-content: center; */
     justify-items: center;
@@ -568,6 +568,7 @@ header {
 .tracks ul .photo,
 .tracks ul .ecom {
     cursor: pointer;
+    transition: all 1s linear;
 }
 
 .tracks .all:hover,
@@ -583,7 +584,6 @@ header {
 }
 
 .products-pictures {
-
     display: grid;
     gap: 20px;
     grid-template-areas: 'pillow bags powder '
@@ -591,8 +591,7 @@ header {
 }
 
 .products-pictures img {
-    max-width: 486px;
-
+    width: 100%;
 }
 
 .brand h6 {
@@ -761,10 +760,10 @@ header {
 .big-team .img-team .team-member3 {
     width: 24%;
     display: inline-block;
-    background-color: wheat;
+    background-color: #e2e0dc;
     border-radius: 12px;
     border-top: 10px;
-    border-top-color: #5c44449e;
+    border-top-color: #99109d9e;
     border-top-style: solid;
     display: flex;
     flex-direction: column;
@@ -775,7 +774,7 @@ header {
 .big-team .img-team .team-member2 img,
 .big-team .img-team .team-member3 img {
     width: 90px;
-    border-radius: 40px;
+    border-radius: 7px;
     margin-top: 20px;
 }
 
@@ -817,7 +816,7 @@ header {
 .big-team .img-team .team-member1 .buttom,
 .big-team .img-team .team-member2 .buttom,
 .big-team .img-team .team-member3 .buttom {
-    background-color: #f3f3dd;
+    background-color: #ededed;
     width: 100%;
     height: 132px;
     border-radius: 0 0 12px 12px;
@@ -836,7 +835,7 @@ header {
 .big-team .img-team .team-member3 .buttom button {
     width: 109px;
     height: 61px;
-    border-radius: 35px;
+    border-radius: 9px;
     color: #ffffff;
     background-color: #000000;
     font-size: larger;
@@ -845,9 +844,12 @@ header {
     cursor: pointer;
 }
 
-.big-team .img-team .team-member1 button:hover {
-    background-color: rgb(78 77 77);
+.big-team .img-team .team-member1 button:hover,
+.big-team .img-team .team-member2 button:hover,
+.big-team .img-team .team-member3 button:hover {
+    background-color: #042e7d;
     border: hidden;
+    transition: all .5s linear;
 }
 
 .big-team .img-team .team-member2 img:hover {
@@ -855,19 +857,9 @@ header {
     transition: 3s ease;
 }
 
-.big-team .img-team .team-member2 button:hover {
-    background-color: rgb(78 77 77);
-    border: hidden;
-}
-
 .big-team .img-team .team-member3 img:hover {
     transform: scale(0.8);
     transition: 3s ease;
-}
-
-.big-team .img-team .team-member3 button:hover {
-    background-color: rgb(78 77 77);
-    border: hidden;
 }
 
 
@@ -1203,10 +1195,13 @@ header {
     }
 
     .products-pictures {
+        display: grid;
+        gap: 20px;
         grid-template-areas:
-            'pillow bags'
-            'powder towel'
-            'creame pancake';
+            'pillow bags powder '
+            'towel creame pancake';
+        padding: 0 31px;
+
     }
 
     .tracks {
@@ -1224,22 +1219,80 @@ header {
 }
 
 /*  mobile screen */
-@media (min-width: 375px) and (max-width: 667px){
-    header, .footer, .ceo, .culture, .third-part, .big-team {
-        width: 100%;
+@media (min-width: 430px) and (max-width: 932px) {
+
+    header,
+    .footer,
+    .ceo,
+    .culture,
+    .third-part,
+    .big-team {
+        width: 363%;
         padding: 1rem;
     }
 
-    .second-part {
+    /* .second-part {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+    } */
+
+    .second-part .flex {
+        flex-direction: column;
+        display: flex;
     }
 
-    .pixel, .vector, .fonts, .layers, .grid, .solution {
-        width: 100%;
+    .second-part .solution p, .second-part .solution h2{
+        font-size: 5rem;
+    }
+
+    .second-part .solution span{
+        font-size: x-large;
+    }
+
+    .second-part .flex .pixel,
+    .second-part .flex .vector,
+    .second-part .flex .fonts,
+    .second-part .flex .layers,
+    .second-part .flex .grid,
+    .second-part .flex .solution {
+        width: 371%;
         margin-bottom: 15px;
         text-align: center;
+        height: 35rem;
+    }
+
+    .second-part .pixel .content,
+    .second-part .vector .contain2,
+    .second-part .fonts .contain3,
+    .second-part .layers .contain4,
+    .second-part .grid .contain5 {
+        width: 83rem;
+        font-size: xxx-large;
+    }
+
+    .second-part .pixel h5,
+    .second-part .vector h5,
+    .second-part .fonts h5,
+    .second-part .layers h5,
+    .second-part .grid h5 {
+        padding-top: 21px;
+    }
+
+    .second-part .pixel p,
+    .second-part .vector p,
+    .second-part .fonts p,
+    .second-part .layers p,
+    .second-part .grid p {
+        font-size: smaller;
+    }
+
+    .second-part .pixel .a2,
+    .second-part .vector .a2,
+    .second-part .fonts .a2,
+    .second-part .layers .a2,
+    .second-part .grid .a2 {
+        font-size: smaller;
     }
 
     .tracks {
@@ -1248,18 +1301,78 @@ header {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
+        width: 89rem;
     }
 
-    .team .img-team {
+    .team p {
+        font-size: xxx-large;
+    }
+
+    .team h3 {
+        font-size: 5rem;
+    }
+
+    .team span {
+        font-size: xx-large;
+        width: 92%;
+    }
+
+    .img-team {
         flex-direction: column;
-        align-items: center;
+        align-items: baseline;
+        width: 416%;
+        gap: 4rem;
+        padding-top: 11rem;
+    }
+
+    .big-team .img-team .team-member1 img,
+    .big-team .img-team .team-member2 img,
+    .big-team .img-team .team-member3 img {
+        width: 31%;
+    }
+
+    .big-team .img-team .team-member1 p,
+    .big-team .img-team .team-member2 p,
+    .big-team .img-team .team-member3 p {
+        font-size: 4rem;
+    }
+
+    .big-team .img-team .team-member1 span,
+    .big-team .img-team .team-member2 span,
+    .big-team .img-team .team-member3 span {
+        font-size: x-large;
+    }
+
+    .big-team .img-team .team-member1 .buttom,
+    .big-team .img-team .team-member2 .buttom,
+    .big-team .img-team .team-member3 .buttom {
+        height: 13rem;
+
+    }
+
+    .big-team .img-team .team-member1 .buttom button,
+    .big-team .img-team .team-member2 .buttom button,
+    .big-team .img-team .team-member3 .buttom button {
+        width: 25%;
+        height: 8rem;
+        font-size: xxx-large;
+    }
+
+    .brand h6 {
+        font-size: 36px;
+
+    }
+
+    .brand p {
+        font-size: 2rem;
     }
 
     .products-pictures {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 3rem;
         text-align: center;
+        width: 371%;
     }
 
     .ceo .people {
@@ -1267,6 +1380,31 @@ header {
         flex-direction: column;
         gap: 2rem;
         padding: 2rem 0;
+        width: 121%;
+
+    }
+
+    .ceo .hear {
+        font-size: 3rem;
+    }
+
+    .ceo .contains1,
+    .ceo .contains3 {
+        height: 30%;
+    }
+
+    .ceo .contains2,
+    .ceo .contains4 {
+        width: 80%;
+        height: 30%;
+    }
+
+    .ceo .contains1 .f-contain,
+    .ceo .contains2 .s-contain,
+    .ceo .contains3 .t-contain,
+    .ceo .contains4 .h-contain {
+        font-size: xx-large;
+
     }
 
     .footer .roxina-center {
