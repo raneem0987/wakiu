@@ -1296,7 +1296,7 @@ header {
     .culture,
     .third-part,
     .big-team {
-        width: 363%;
+        width: 389%;
         padding: 1rem;
     }
 
@@ -1320,7 +1320,7 @@ header {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 371%;
+        width: 397%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
@@ -1440,7 +1440,7 @@ header {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 357%;
+        width: 391%;
     }
 
     .ceo .people {
