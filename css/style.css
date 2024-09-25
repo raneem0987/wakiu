@@ -1171,7 +1171,7 @@ header {
     .culture,
     .third-part,
     .big-team {
-        width: 102%;
+        width: 126%;
     }
 
     .second-part .flex {
@@ -1194,7 +1194,7 @@ header {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 101%;
+        width: 126%;
         margin-bottom: 15px;
         text-align: center;
         height: 19rem;
@@ -1243,13 +1243,10 @@ header {
     }
 
     .products-pictures {
-        display: grid;
-        gap: 20px;
-        grid-template-areas:
-            'pillow bags powder '
-            'towel creame pancake';
         padding: 0 31px;
-
+        display: flex;
+        flex-direction: column;
+        width: 117%;
     }
 
     .tracks {
@@ -1258,7 +1255,7 @@ header {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 43rem;
+        width: 52rem;
     }
 
     .lorem {
@@ -1266,7 +1263,7 @@ header {
     }
 
     .ceo{
-        width: 83%;
+        width: 108%;
     }
 
     .ceo .hear{
