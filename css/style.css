@@ -15,6 +15,14 @@ header {
     width: 90%;
     margin: auto;
     height: 100%;
+    transition: all 1s linear;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    left: 0;
+    transition: all 1s linear;
 }
 
 .navbar {
@@ -1219,34 +1227,29 @@ header {
 }
 
 /*  mobile screen */
-@media (min-width: 430px) and (max-width: 932px) {
+@media (min-width: 375px) and (max-width: 667px) {
 
-    header,
+     header,
     .footer,
     .ceo,
     .culture,
     .third-part,
     .big-team {
-        width: 363%;
+        width: 273%;
         padding: 1rem;
     }
-
-    /* .second-part {
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
-    } */
 
     .second-part .flex {
         flex-direction: column;
         display: flex;
     }
 
-    .second-part .solution p, .second-part .solution h2{
+    .second-part .solution p,
+    .second-part .solution h2 {
         font-size: 5rem;
     }
 
-    .second-part .solution span{
+    .second-part .solution span {
         font-size: x-large;
     }
 
@@ -1256,7 +1259,7 @@ header {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 371%;
+        width: 281%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
@@ -1267,8 +1270,8 @@ header {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 83rem;
-        font-size: xxx-large;
+        width: 55rem;
+        font-size: xx-large;
     }
 
     .second-part .pixel h5,
@@ -1301,7 +1304,7 @@ header {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 89rem;
+        width: 64rem;
     }
 
     .team p {
@@ -1372,7 +1375,7 @@ header {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 371%;
+        width: 281%;
     }
 
     .ceo .people {
