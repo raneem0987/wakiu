@@ -880,7 +880,7 @@ nav .links i {
 .big-team .img-team .team-member1,
 .big-team .img-team .team-member2,
 .big-team .img-team .team-member3 {
-    width: 24%;
+    width: 23%;
     display: inline-block;
     background-color: #e2e0dc;
     border-radius: 12px;
@@ -1437,7 +1437,7 @@ nav .links i {
     .culture,
     .third-part,
     .big-team {
-        width: 391%;
+        width: 365%;
         padding: 1rem;
     }
 
@@ -1465,7 +1465,7 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 401%;
+        width: 371%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
@@ -1477,7 +1477,9 @@ nav .links i {
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
         width: 88rem;
-        font-size: xx-large;
+        font-size: xxx-large;
+        padding-top: 92px;
+
     }
 
     .second-part .pixel h5,
@@ -1618,7 +1620,7 @@ nav .links i {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 391%;
+        width: 357%;
     }
 
     .products-pictures .pillow .middle {
@@ -1719,14 +1721,4 @@ nav .links i {
         padding: 26rem 0;
         margin: 371px -449px;
     }
-
-    /* .footer .roxina-center {
-        margin: 0;
-        justify-content: center;
-    }
-
-    .footer .roxina-right ul {
-        justify-content: center;
-        padding: 2rem 0;
-    } */
 }
