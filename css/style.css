@@ -9,6 +9,7 @@ header {
     padding: 3rem 0;
     /* user can't select text or copy it */
     user-select: none;
+    
 }
 
 .container {
@@ -17,12 +18,11 @@ header {
     height: 100%;
 }
 
-nav .sticky {
-    position: fixed;
-    top: 0px;
+nav.sticky {
+    position: sticky;
+    top: 0;
     left: 0px;
-    width: 100%;
-    transition: all 1s linear;
+    animation: fadeIn .5s linear;
 }
 
 nav {
@@ -30,11 +30,24 @@ nav {
     padding: 1rem 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    transition: all 1s linear;
-    position: sticky;
-    top: 0;
-    /* background-color: #fff;  */
+    justify-content: space-around;
+    /* transition: all 1s linear; */
+    background-color: #969798;
+    margin-top: -47px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0px); 
+        }
+        
 }
 
 .logo a {
@@ -42,7 +55,6 @@ nav {
     text-decoration: none;
     font-size: xx-large;
     font-family: sans-serif;
-
 }
 
 nav .links {
@@ -1578,7 +1590,7 @@ nav .links i {
         width: 57rem;
     }
 
-    .brand img{
+    .brand img {
         width: 73%;
     }
 
@@ -1681,33 +1693,33 @@ nav .links i {
 
     }
 
-    .footer{
+    .footer {
         margin: auto;
     }
 
-    .footer .all-roxina{
+    .footer .all-roxina {
         display: flex;
         font-size: xxx-large;
     }
 
-    .footer .all-roxina .roxina-left .logo{
+    .footer .all-roxina .roxina-left .logo {
         width: 88%;
     }
 
-    .footer .roxina-left .roxina-left-under{
+    .footer .roxina-left .roxina-left-under {
         padding: 5rem 0;
     }
 
-    .footer .all-roxina .roxina-center{
+    .footer .all-roxina .roxina-center {
         margin: 28rem -2rem;
         position: absolute;
     }
 
-    .footer .all-roxina .roxina-center ul{
+    .footer .all-roxina .roxina-center ul {
         line-height: 63px;
     }
 
-    .footer .all-roxina .roxina-right ul{
+    .footer .all-roxina .roxina-right ul {
         padding: 26rem 0;
         margin: 371px -449px;
     }
