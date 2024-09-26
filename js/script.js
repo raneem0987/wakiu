@@ -1,4 +1,12 @@
-window.addEventListener("scroll", function(){
-    var navbar = document.querySelector(".navbar");
-    navbar.classList.toggle("sticky", window.scrollY > 0)
-})
+var navbar = document.getElementById("nav");
+
+var sticky = nav.offsetTop;
+
+window.onscroll = function(){
+    if(window.scrollY > sticky){
+navbar.classList.add("sticky")
+    }else
+    {
+        navbar.classList.remove("sticky")
+    }
+}
