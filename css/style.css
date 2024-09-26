@@ -24,11 +24,12 @@ nav.sticky {
     top: 0;
     left: 0px;
     animation: fadeIn .5s linear;
-    background-color: #969798;
+    background-color: #656565;
     z-index: 1000;
     position: fixed;
     margin: 8px 0 0 8px;
     margin-top: 0;
+    transition: all 1s linear;
 }
 
 nav {
@@ -37,22 +38,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* transition: all 1s linear; */
-    /* margin-top: -47px; */
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(-10px);
-
-    }
-
-    100%{
-        opacity: 1;
-        transform: translateY(0px); 
-        }
-        
+    background-color: transparent; 
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .logo a {
