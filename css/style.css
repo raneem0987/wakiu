@@ -17,24 +17,24 @@ header {
     height: 100%;
 }
 
-/* .navbar .sticky {
-    position: sticky;
+nav .sticky {
+    position: fixed;
     top: 0px;
     left: 0px;
-    transition: all 1s linear;  
+    width: 100%;
+    transition: all 1s linear;
 }
 
-.navbar .hidden{
-    display: none;
-} */
-
-.navbar {
+nav {
     width: 100%;
     padding: 1rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* transition: all 1s linear; */
+    transition: all 1s linear;
+    position: sticky;
+    top: 0;
+    /* background-color: #fff;  */
 }
 
 .logo a {
@@ -45,28 +45,28 @@ header {
 
 }
 
-.navbar .links {
+nav .links {
     display: flex;
     gap: 34px;
 }
 
-.navbar .links li {
+nav .links li {
     display: inline-block;
     transition: all linear .2s;
 }
 
-.navbar .links li:hover {
+nav .links li:hover {
     background: #5555551d;
 }
 
-.navbar .links li:hover .contain,
-.navbar .links li:hover .contain_feature,
-.navbar .links li:hover .contain_portfolio,
-.navbar .links li:hover .contain_blog {
+nav .links li:hover .contain,
+nav .links li:hover .contain_feature,
+nav .links li:hover .contain_portfolio,
+nav .links li:hover .contain_blog {
     display: block;
 }
 
-.navbar .links li a {
+nav .links li a {
     text-decoration: none;
     color: white;
     font-family: 'Font Awesome 5 Brands';
@@ -74,14 +74,14 @@ header {
     letter-spacing: 2.5px;
 }
 
-.navbar .links li a:hover {
+nav .links li a:hover {
     color: #d4c1dd;
 }
 
-.navbar .links .contain li a,
-.navbar .links .contain_feature li a,
-.navbar .links .contain_portfolio li a,
-.navbar .links .contain_blog li a {
+nav .links .contain li a,
+nav .links .contain_feature li a,
+nav .links .contain_portfolio li a,
+nav .links .contain_blog li a {
     text-decoration: none;
     color: rgb(109, 109, 109);
     font-size: 10px;
@@ -89,10 +89,10 @@ header {
     display: inline-block;
 }
 
-.navbar .links li .contain,
-.navbar .links li .contain_feature,
-.navbar .links li .contain_portfolio,
-.navbar .links li .contain_blog {
+nav .links li .contain,
+nav .links li .contain_feature,
+nav .links li .contain_portfolio,
+nav .links li .contain_blog {
     position: absolute;
     width: 215px;
     display: none;
@@ -103,29 +103,29 @@ header {
     text-indent: 15px;
 }
 
-.navbar .links li .contain li,
-.navbar .links li .contain_feature li,
-.navbar .links li .contain_portfolio li,
-.navbar .links li .contain_blog li {
+nav .links li .contain li,
+nav .links li .contain_feature li,
+nav .links li .contain_portfolio li,
+nav .links li .contain_blog li {
     background: #f8f8f8;
     display: block;
 }
 
-.navbar .links li .contain li a,
-.navbar .links li .contain_feature li a,
-.navbar .links li .contain_portfolio li a,
-.navbar .links li .contain_blog li a {
+nav .links li .contain li a,
+nav .links li .contain_feature li a,
+nav .links li .contain_portfolio li a,
+nav .links li .contain_blog li a {
     display: block !important;
 }
 
-.navbar .links li .contain li:hover,
-.navbar.links li .contain_feature li:hover,
-.navbar.links li .contain_portfolio li:hover,
-.navbar.links li .contain_blog li:hover {
+nav .links li .contain li:hover,
+nav.links li .contain_feature li:hover,
+nav.links li .contain_portfolio li:hover,
+nav.links li .contain_blog li:hover {
     background: #eaeaeaf5;
 }
 
-.navbar .links i {
+nav .links i {
     /* margin-left: 9px; */
     display: flex;
     gap: 24px;
@@ -253,7 +253,6 @@ header {
 
 .second-part .pixel:hover .overlay {
     width: 100%;
-
 }
 
 .second-part .pixel .content,
@@ -604,6 +603,111 @@ header {
 
 .products-pictures img {
     width: 100%;
+
+}
+
+.products-pictures .pillow,
+.products-pictures .bags,
+.products-pictures .powder,
+.products-pictures .towel,
+.products-pictures .creame,
+.products-pictures .pancake {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.products-pictures .pillow:hover img,
+.products-pictures .bags:hover img,
+.products-pictures .powder:hover img,
+.products-pictures .towel:hover img,
+.products-pictures .creame:hover img,
+.products-pictures .pancake:hover img {
+    opacity: 0.3;
+    transition: all .8s ease-in-out;
+}
+
+.products-pictures .pillow:hover .middle,
+.products-pictures .bags:hover .middle,
+.products-pictures .powder:hover .middle,
+.products-pictures .towel:hover .middle,
+.products-pictures .creame:hover .middle,
+.products-pictures .pancake:hover .middle {
+    opacity: 1;
+}
+
+.products-pictures .pillow .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 315%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .bags .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 315%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .powder .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 315%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .towel .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 363%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .creame .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 363%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .pancake .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 363%;
+    left: 83%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.products-pictures .pillow .middle-icons,
+.products-pictures .bags .middle-icons,
+.products-pictures .powder .middle-icons,
+.products-pictures .towel .middle-icons,
+.products-pictures .creame .middle-icons,
+.products-pictures .pancake .middle-icons {
+    background-color: #2804aa;
+    color: white;
+    padding: 16px 32px;
 }
 
 .brand h6 {
@@ -691,6 +795,8 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 55px;
+    background-blend-mode: darken;
+    background-color: #c2c2c2;
 }
 
 .contain-culture {
@@ -1249,6 +1355,36 @@ header {
         width: 117%;
     }
 
+    .products-pictures .pillow .middle {
+        left: 61%;
+        top: 245rem;
+    }
+
+    .products-pictures .bags .middle {
+        left: 61%;
+        top: 281rem;
+    }
+
+    .products-pictures .powder .middle {
+        left: 61%;
+        top: 316rem;
+    }
+
+    .products-pictures .towel .middle {
+        left: 61%;
+        top: 351rem;
+    }
+
+    .products-pictures .creame .middle {
+        left: 61%;
+        top: 386rem;
+    }
+
+    .products-pictures .pancake .middle {
+        left: 61%;
+        top: 423rem;
+    }
+
     .tracks {
         display: flex;
         flex-direction: column;
@@ -1262,11 +1398,11 @@ header {
         padding: 1rem 38px;
     }
 
-    .ceo{
+    .ceo {
         width: 108%;
     }
 
-    .ceo .hear{
+    .ceo .hear {
         width: 90%;
     }
 
@@ -1369,7 +1505,7 @@ header {
         width: 91rem;
     }
 
-    .team{
+    .team {
         padding: 0 15rem;
     }
 
@@ -1428,12 +1564,45 @@ header {
     }
 
     .brand h6 {
-        font-size: 36px;
+        font-size: 81px;
+        width: 182%;
+    }
 
+    .brand h2 {
+        font-size: 111px;
+        width: 67rem;
     }
 
     .brand p {
-        font-size: 2rem;
+        font-size: 4rem;
+        width: 57rem;
+    }
+
+    .brand img{
+        width: 73%;
+    }
+
+    .lorem .lorem-left p {
+        width: 312%;
+        font-size: xx-large;
+        line-height: 3rem;
+    }
+
+    .lorem .lorem-right p {
+        width: 43%;
+        font-size: xx-large;
+        line-height: 3rem;
+        padding: 0 32rem;
+    }
+
+    .lorem .lorem-right .links {
+        padding: 0 36rem;
+    }
+
+    .lorem .lorem-right .links ul li {
+        width: 54%;
+        font-size: large;
+        line-height: 2rem;
     }
 
     .products-pictures {
@@ -1442,6 +1611,42 @@ header {
         gap: 3rem;
         text-align: center;
         width: 391%;
+    }
+
+    .products-pictures .pillow .middle {
+        left: 48rem;
+        top: 345rem;
+        font-size: xxx-large;
+    }
+
+    .products-pictures .bags .middle {
+        left: 48rem;
+        top: 415rem;
+        font-size: xxx-large;
+    }
+
+    .products-pictures .powder .middle {
+        left: 48rem;
+        top: 486rem;
+        font-size: xxx-large;
+    }
+
+    .products-pictures .towel .middle {
+        left: 48rem;
+        top: 557rem;
+        font-size: xxx-large;
+    }
+
+    .products-pictures .creame .middle {
+        left: 48rem;
+        top: 629rem;
+        font-size: xxx-large;
+    }
+
+    .products-pictures .pancake .middle {
+        left: 48rem;
+        top: 699rem;
+        font-size: xxx-large;
     }
 
     .ceo .people {
@@ -1476,7 +1681,38 @@ header {
 
     }
 
-    .footer .roxina-center {
+    .footer{
+        margin: auto;
+    }
+
+    .footer .all-roxina{
+        display: flex;
+        font-size: xxx-large;
+    }
+
+    .footer .all-roxina .roxina-left .logo{
+        width: 88%;
+    }
+
+    .footer .roxina-left .roxina-left-under{
+        padding: 5rem 0;
+    }
+
+    .footer .all-roxina .roxina-center{
+        margin: 28rem -2rem;
+        position: absolute;
+    }
+
+    .footer .all-roxina .roxina-center ul{
+        line-height: 63px;
+    }
+
+    .footer .all-roxina .roxina-right ul{
+        padding: 26rem 0;
+        margin: 371px -449px;
+    }
+
+    /* .footer .roxina-center {
         margin: 0;
         justify-content: center;
     }
@@ -1484,5 +1720,5 @@ header {
     .footer .roxina-right ul {
         justify-content: center;
         padding: 2rem 0;
-    }
+    } */
 }
