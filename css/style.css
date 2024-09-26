@@ -1592,27 +1592,38 @@ nav .links i {
         width: 73%;
     }
 
+    .lorem{
+        display: flex;
+        flex-direction: column;
+    }
+
     .lorem .lorem-left p {
         width: 312%;
         font-size: xx-large;
         line-height: 3rem;
     }
 
-    .lorem .lorem-right p {
-        width: 43%;
+    .lorem .lorem-left button{
+        width: 20rem;
+        height: 7rem;
         font-size: xx-large;
-        line-height: 3rem;
-        padding: 0 32rem;
+    }
+
+    .lorem .lorem-right p {
+        width: 199%;
+        font-size: xxx-large;
+        line-height: 4rem;
+        padding: 4rem 0rem;
     }
 
     .lorem .lorem-right .links {
-        padding: 0 36rem;
+        width: 100rem;
     }
 
     .lorem .lorem-right .links ul li {
-        width: 54%;
-        font-size: large;
-        line-height: 2rem;
+        width: 98%;
+        font-size: xx-large;
+        line-height: 4rem;
     }
 
     .products-pictures {
@@ -1663,7 +1674,7 @@ nav .links i {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding: 2rem 0;
+        padding: 2rem 8rem;
         width: 121%;
 
     }
