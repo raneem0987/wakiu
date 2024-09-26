@@ -1,12 +1,12 @@
-var navbar = document.getElementById("nav");
+var navbarElement = document.querySelector("nav");
+var stickyPosition = navbarElement.offsetTop;
 
-var sticky = nav.offsetTop;
+window.addEventListener("scroll",function(e){
 
-window.onscroll = function(){
-    if(window.scrollY > sticky){
-navbar.classList.add("sticky")
+    if(window.scrollY >= navbarElement.offsetTop){
+        navbarElement.classList.add("sticky");
     }else
     {
-        navbar.classList.remove("sticky")
+        navbarElement.classList.remove("sticky");
     }
-}
+})
