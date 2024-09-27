@@ -32,6 +32,14 @@ nav.sticky {
     transition: all 1s linear;
 }
 
+nav.desktop-nav .menubar-icon{
+    display: none;
+}
+
+.hide{
+    display: none;
+}
+
 nav {
     width: 99%;
     padding: 1rem 0;
@@ -1441,6 +1449,17 @@ nav .links i {
         padding: 1rem;
     }
 
+    nav.mobile-nav {
+        padding: 1rem;
+        position: fixed;
+        top: 8px;
+        right: 151px;
+        bottom: 121.3rem;
+        width: 171px;
+        z-index: 5;
+        background-color: #656565;
+      }
+
     .second-header{
         padding: 1rem 0;
     }
@@ -1504,6 +1523,11 @@ nav .links i {
     .second-part .layers .a2,
     .second-part .grid .a2 {
         font-size: smaller;
+    }
+
+    .second-part .solution .divider img{
+        width: 14%;
+        padding: 2rem 0;
     }
 
     .tracks {
@@ -1731,5 +1755,65 @@ nav .links i {
     .footer .all-roxina .roxina-right ul {
         padding: 26rem 0;
         margin: 371px -449px;
+    }
+}
+
+@media (max-width:1200px){
+
+    
+  nav.desktop-nav .links {
+    display: none;
+  }
+
+  nav.desktop-nav .menubar-icon {
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0 69px;
+    color: #ffff;
+  }
+
+  .mobile-nav {
+    padding: 1rem;
+    position: fixed;
+    top: 8px;
+    right: 0;
+    bottom: 0;
+    width: 171px;
+    z-index: 5;
+    background-color: #656565;
+
+  }
+
+  nav.mobile-nav .logo a{
+    margin: -14rem 2rem;
+    position: absolute;
+  }
+
+  nav.mobile-nav .nav .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  nav.mobile-nav .close-menu {
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    font-size: 1.5rem;
+    transition: all 0.5s linear;
+    cursor: pointer;
+    color: #ffff;
+  }
+
+  nav.mobile-nav .close-menu:hover {
+    color: #080808;
+  }
+
+}
+
+@media (min-width:1400px){
+    nav.mobile-nav{
+        display: none;
     }
 }
