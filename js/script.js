@@ -28,14 +28,14 @@ var mobileNavElement = document.querySelector(".mobile-nav");
 menuvarbar.addEventListener("click", function (e) {
 
     mobileNavElement.classList.remove("hide");
-    navbarElement.classList.remove("sticky");
-    mobileNavElement.classList.remove("animate-fadeOutRight");
-    mobileNavElement.classList.add("animate-fadeInRight");
+    // navbarElement.classList.remove("sticky");
+    mobileNavElement.classList.remove("animate__fadeOutRight");
+    mobileNavElement.classList.add("animate__fadeInRight");
 
 })
 
 closeMenuElement.addEventListener("click", function(){
-    mobileNavElement.classList.add("hide");
-    mobileNavElement.classList.remove("animate-fadeInRight");
-    mobileNavElement.classList.add("animate-fadeOutRight");
+    // mobileNavElement.classList.add("hide");
+    mobileNavElement.classList.remove("animate__fadeInRight");
+    mobileNavElement.classList.add("animate__fadeOutRight");
 })
