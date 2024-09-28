@@ -1298,7 +1298,7 @@ nav .links i {
         margin: auto;
         overflow-x: hidden;
         box-sizing: border-box;
-        margin: 0 auto; 
+        margin: 0 auto;
     }
 
     header,
@@ -1506,18 +1506,17 @@ nav .links i {
         overflow-x: hidden;
         max-width: 1200px;
         width: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
         box-sizing: border-box;
     }
 
     header,
     .footer,
-    .ceo,
     .culture,
-    .third-part,
-    .big-team {
-        width: 389%;
-        /* margin: 0 17rem; */
+    .third-part {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1px 44rem;
     }
 
     .container {
@@ -1528,15 +1527,47 @@ nav .links i {
         padding: 1rem;
         position: fixed;
         top: 2px;
-        right: 109px;
-        bottom: 110.8rem;
+        right: 7rem;
+        bottom: 80.8rem;
         width: 171px;
         z-index: 5;
         background-color: #656565;
     }
 
+    nav.sticky {
+        position: sticky;
+        top: 0;
+        left: 0px;
+        animation: fadeIn .5s linear;
+        background-color: #656565;
+        z-index: 1000;
+        position: fixed;
+        /* margin: 0px; */
+        margin-top: 0;
+        transition: all 1s linear;
+        width: 94%;
+    }
+
     .second-header {
         padding: 1rem 0;
+    }
+
+    .second-header .title {
+        margin: 21rem -34rem;
+    }
+
+    .second-header h1 {
+        margin: -15rem -36rem;
+    }
+
+    .second-header .discrip {
+        margin: 17rem -34rem;
+        font-size: large;
+        letter-spacing: 4px;
+    }
+
+    .second-header button {
+        margin: 0 -33rem;
     }
 
     .second-part .flex {
@@ -1559,11 +1590,12 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 341%;
+        width: 100%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
         margin: 0 4rem;
+        padding: 1rem 19rem;
     }
 
     .second-part .pixel .content,
@@ -1574,7 +1606,7 @@ nav .links i {
         width: 71rem;
         font-size: xxx-large;
         padding-top: 92px;
-
+        margin: 0 -26rem;
     }
 
     .second-part .pixel h5,
@@ -1602,8 +1634,20 @@ nav .links i {
     }
 
     .second-part .solution .divider img {
-        width: 14%;
+        width: 42%;
         padding: 2rem 0;
+    }
+
+    .third-part p {
+        margin: 5rem -40rem;
+    }
+
+    .third-part h3 {
+        margin: 6rem -40rem;
+    }
+
+    .third-part button {
+        margin: 2rem -41rem;
     }
 
     .tracks {
@@ -1612,7 +1656,7 @@ nav .links i {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 89rem;
+        width: 72rem;
     }
 
     .team {
@@ -1621,23 +1665,37 @@ nav .links i {
 
     .team p {
         font-size: xxx-large;
+        margin: 47px -1rem;
+        width: 26rem;
     }
 
     .team h3 {
-        font-size: 5rem;
+        font-size: xx-large;
+        width: 33rem;
+        margin: 3rem -7rem;
+        text-align: center;
+    }
+
+    .team img {
+        width: 8rem;
+        margin: 0 4rem;
     }
 
     .team span {
         font-size: xx-large;
-        width: 92%;
+        width: 21rem;
+        text-align: center;
+        margin: 4rem -2rem;
     }
 
     .img-team {
         flex-direction: column;
         align-items: baseline;
-        width: 434%;
+        width: 269rem;
         gap: 4rem;
         padding-top: 11rem;
+        padding: 18rem 5rem;
+        box-sizing: border-box;
     }
 
     .big-team .img-team .team-member1 img,
@@ -1671,6 +1729,12 @@ nav .links i {
         width: 25%;
         height: 8rem;
         font-size: xxx-large;
+    }
+
+    .ceo{
+        width: 71rem;
+        box-sizing: border-box;
+        height: 150rem;
     }
 
     .brand h6 {
@@ -1727,47 +1791,58 @@ nav .links i {
         line-height: 4rem;
     }
 
+    .contain-culture {
+        margin: -3rem -39rem;
+    }
+
+    .culture .contain-culture .parag p {
+        margin: 2rem;
+        width: 58rem;
+    }
+
     .products-pictures {
         display: flex;
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 334%;
+        width: 72rem;
+        margin: 3rem -1rem;
+        box-sizing: border-box;
     }
 
     .products-pictures .pillow .middle {
-        left: 36rem;
-        top: 337rem;
+        left: 30rem;
+        top: 398rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-        left: 36rem;
-        top: 392rem;
+        left: 30rem;
+        top: 444rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-        left: 36rem;
+        left: 30rem;
         top: 446rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-        left: 36rem;
-        top: 500rem;
+        left: 30rem;
+        top: 540rem;
         font-size: xxx-large;
     }
 
     .products-pictures .creame .middle {
-        left: 36rem;
-        top: 552rem;
+        left: 30rem;
+        top: 589rem;
         font-size: xxx-large;
     }
 
     .products-pictures .pancake .middle {
-        left: 36rem;
-        top: 604rem;
+        left: 30rem;
+        top: 634rem;
         font-size: xxx-large;
     }
 
@@ -1778,9 +1853,9 @@ nav .links i {
     .products-pictures .creame .middle-icons,
     .products-pictures .pancake .middle-icons {
         background-color: #2804aa;
-    color: white;
-    padding: 35px 32px;
-    width: 152%;
+        color: white;
+        padding: 35px 32px;
+        width: 152%;
     }
 
     .ceo .people {
@@ -1816,11 +1891,14 @@ nav .links i {
 
     .footer {
         margin: auto;
+        padding: 33rem 36rem;
+        width: 100%;
     }
 
     .footer .all-roxina {
         display: flex;
         font-size: xxx-large;
+        margin: 1rem -33rem;
     }
 
     .footer .all-roxina .roxina-left .logo {
