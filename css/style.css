@@ -5,16 +5,18 @@ body {
 }
 
 header {
-    background-image: url(https://html.waituk.com/roxine/img/big-14.jpg);
-    width: 100%;
+    background-image: url("https://html.waituk.com/roxine/img/big-14.jpg");
+    width: 102%;
     background-size: cover;
     background-color: rgba(15, 15, 15, 0.664);
+    /* make picture darker */
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    padding: 3rem 5rem;
+    padding: 3rem 0;
+    /* user can't select text or copy it */
     user-select: none;
     padding-bottom: 8rem;
-    margin: -2rem -5rem;
+    /* margin: 0 8rem; */
 }
 
 .container {
@@ -531,14 +533,13 @@ nav .links i {
 }
 
 .third-part {
-    background-image: url(https://html.waituk.com/roxine/img/big-15.jpg);
-    width: 100%;
+    background-image: url("https://html.waituk.com/roxine/img/big-15.jpg");
+    width: 102%;
     background-size: cover;
     background-color: rgba(15, 15, 15, 0.664);
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    padding: 3rem 5rem;
-    margin: 1rem -5rem;
+    padding: 3rem 0;
 }
 
 .third-part p {
@@ -811,16 +812,13 @@ nav .links i {
 
 .culture {
     background-image: url(https://html.waituk.com/roxine/img/big-01.jpg);
-    width: 100%;
+    width: 102%;
     height: 983px;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: 55px; */
+    margin-top: 55px;
     background-blend-mode: darken;
     background-color: #c2c2c2;
-    margin: 1rem -5rem;
-    padding: 1rem 5rem;
-
 }
 
 .contain-culture {
@@ -1235,11 +1233,9 @@ nav .links i {
 
 .footer {
     background-color: #0d0125c8;
-    width: 100%;
+    width: 102%;
     margin-top: 60px;
     /* height: 317px; */
-    margin: 0 -5rem;
-    padding: 5rem;
 }
 
 .footer .all-roxina {
@@ -1302,7 +1298,7 @@ nav .links i {
         margin: auto;
         overflow-x: hidden;
         box-sizing: border-box;
-        margin: 0 auto;
+        margin: 0 auto; 
     }
 
     header,
@@ -1510,7 +1506,7 @@ nav .links i {
         overflow-x: hidden;
         max-width: 1200px;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 auto; 
         box-sizing: border-box;
     }
 
@@ -1520,10 +1516,8 @@ nav .links i {
     .culture,
     .third-part,
     .big-team {
-        width: 100%;
-        margin: 0 -7rem;
-        box-sizing: border-box;
-        padding: 46rem;
+        width: 389%;
+        /* margin: 0 17rem; */
     }
 
     .container {
@@ -1542,8 +1536,7 @@ nav .links i {
     }
 
     .second-header {
-        padding: 1rem;
-        margin: 0 -45rem;
+        padding: 1rem 0;
     }
 
     .second-part .flex {
@@ -1551,24 +1544,13 @@ nav .links i {
         display: flex;
     }
 
-    .second-part .solution p {
-        font-size: 7rem;
-        width: 47rem;
-        box-sizing: border-box;
-        margin: 147px -9rem;
-    }
-
+    .second-part .solution p,
     .second-part .solution h2 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     .second-part .solution span {
         font-size: x-large;
-    }
-
-    .second-part .solution .divider img {
-        width: 48%;
-        padding: 2rem 0;
     }
 
     .second-part .flex .pixel,
@@ -1577,12 +1559,11 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 100%;
+        width: 341%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
         margin: 0 4rem;
-        padding: 28rem;
     }
 
     .second-part .pixel .content,
@@ -1590,10 +1571,10 @@ nav .links i {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 100%;
+        width: 71rem;
         font-size: xxx-large;
         padding-top: 92px;
-        box-sizing: border-box;
+
     }
 
     .second-part .pixel h5,
@@ -1610,7 +1591,6 @@ nav .links i {
     .second-part .layers p,
     .second-part .grid p {
         font-size: smaller;
-        min-width: max-content;
     }
 
     .second-part .pixel .a2,
@@ -1621,39 +1601,22 @@ nav .links i {
         font-size: smaller;
     }
 
-    .third-part p{
-        font-size: xxx-large;
-        width: 32rem;
-        box-sizing: border-box;
-        margin: -10rem -26rem;
+    .second-part .solution .divider img {
+        width: 14%;
+        padding: 2rem 0;
     }
-
-    .third-part h3{
-        width: 32rem;
-        box-sizing: border-box;
-        margin: 14rem -25rem;
-        font-size: 4rem;
-    }
-
-    .third-part button{
-        width: 20rem;
-        height: 8rem;
-        font-size: xx-large;
-        margin: -25rem;
-    }
-
 
     .tracks {
         display: flex;
         flex-direction: column;
-        padding: 3rem 37rem;
+        padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 100%;
+        width: 89rem;
     }
 
     .team {
-        margin: -39rem;
+        padding: 0 15rem;
     }
 
     .team p {
@@ -1669,12 +1632,12 @@ nav .links i {
         width: 92%;
     }
 
-    .big-team .img-team {
+    .img-team {
         flex-direction: column;
         align-items: baseline;
-        width: 100%;
+        width: 434%;
         gap: 4rem;
-        padding-top: 72rem;
+        padding-top: 11rem;
     }
 
     .big-team .img-team .team-member1 img,
@@ -1710,153 +1673,6 @@ nav .links i {
         font-size: xxx-large;
     }
 
-    .img-team {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 4rem 0;
-}
-
-.big-team .img-team .team-member1,
-.big-team .img-team .team-member2,
-.big-team .img-team .team-member3 {
-    width: 23%;
-    display: inline-block;
-    background-color: #e2e0dc;
-    border-radius: 12px;
-    border-top: 10px;
-    border-top-color: #99109d9e;
-    border-top-style: solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.big-team .img-team .team-member1 img,
-.big-team .img-team .team-member2 img,
-.big-team .img-team .team-member3 img {
-    width: 90px;
-    border-radius: 7px;
-    margin-top: 20px;
-}
-
-.big-team .img-team .team-member1 img:hover {
-    transform: scale(0.8);
-    transition: 3s ease;
-}
-
-.big-team .img-team .team-member1 p,
-.big-team .img-team .team-member2 p,
-.big-team .img-team .team-member3 p {
-    color: #000;
-    padding: 1rem 0;
-    margin: 0;
-}
-
-.big-team .img-team .team-member1 span,
-.big-team .img-team .team-member2 span,
-.big-team .img-team .team-member3 span {
-    color: rgb(145, 143, 143);
-    font-size: larger;
-    font-family: sans-serif;
-}
-
-.big-team .img-team .team-member1 .icons,
-.big-team .img-team .team-member2 .icons,
-.big-team .img-team .team-member3 .icons {
-    display: flex;
-    gap: 2rem;
-    padding: 3rem 0;
-}
-
-.big-team .img-team .team-member1 .icons i,
-.big-team .img-team .team-member2 .icons i,
-.big-team .img-team .team-member3 .icons i {
-    cursor: pointer;
-}
-
-.big-team .img-team .team-member1 .buttom,
-.big-team .img-team .team-member2 .buttom,
-.big-team .img-team .team-member3 .buttom {
-    background-color: #ededed;
-    width: 100%;
-    height: 132px;
-    border-radius: 0 0 12px 12px;
-}
-
-.big-team .img-team .team-member1 .buttom .s-buttom,
-.big-team .img-team .team-member2 .buttom .s-buttom,
-.big-team .img-team .team-member3 .buttom .s-buttom {
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.big-team .img-team .team-member1 .buttom button,
-.big-team .img-team .team-member2 .buttom button,
-.big-team .img-team .team-member3 .buttom button {
-    width: 109px;
-    height: 61px;
-    border-radius: 9px;
-    color: #ffffff;
-    background-color: #000000;
-    font-size: larger;
-    font-family: sans-serif;
-    border: hidden;
-    cursor: pointer;
-}
-
-.big-team .img-team .team-member1 button:hover,
-.big-team .img-team .team-member2 button:hover,
-.big-team .img-team .team-member3 button:hover {
-    background-color: #042e7d;
-    border: hidden;
-    transition: all .5s linear;
-}
-
-.big-team .img-team .team-member2 img:hover {
-    transform: scale(0.8);
-    transition: 3s ease;
-}
-
-.big-team .img-team .team-member3 img:hover {
-    transform: scale(0.8);
-    transition: 3s ease;
-}
-
-
-.img-team .team3 {
-    width: 24%;
-    display: inline-block;
-    margin-top: 12px;
-    margin-left: 1000px;
-    position: absolute;
-}
-
-.img-team .left i {
-    width: 45px;
-    margin-top: 18%;
-    margin-left: 154px;
-    cursor: pointer;
-    color: #c2c2c2;
-}
-
-.img-team .left i:hover {
-    color: #000;
-}
-
-.img-team .right i {
-    width: 45px;
-    margin-top: 18%;
-    margin-left: 1167px;
-    cursor: pointer;
-    color: #c2c2c2;
-}
-
-.img-team .right i:hover {
-    color: #000;
-}
-
     .brand h6 {
         font-size: 81px;
         width: 182%;
@@ -1883,7 +1699,7 @@ nav .links i {
     }
 
     .lorem .lorem-left p {
-        width: 500rem;
+        width: 461%;
         font-size: xx-large;
         line-height: 3rem;
     }
@@ -1895,7 +1711,7 @@ nav .links i {
     }
 
     .lorem .lorem-right p {
-        width: 100rem;
+        width: 461%;
         font-size: xxx-large;
         line-height: 4rem;
         padding: 4rem 0rem;
@@ -1911,60 +1727,47 @@ nav .links i {
         line-height: 4rem;
     }
 
-    .culture .contain-culture{
-        font-size: xx-large;
-        width: 67rem;
-        box-sizing: border-box;
-        margin: -33rem;
-    }
-
-    .culture .contain-culture img{
-        width: 20%;
-        padding: 3rem 0;
-    }
-
     .products-pictures {
         display: flex;
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 76rem;
-        padding: 0 5.9rem;
+        width: 334%;
     }
 
     .products-pictures .pillow .middle {
-        left: 40rem;
-        top: 849rem;
+        left: 36rem;
+        top: 337rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-       left: 40rem;
-        top: 899rem;
+        left: 36rem;
+        top: 392rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-       left: 40rem;
-        top: 952rem;
+        left: 36rem;
+        top: 446rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-       left: 40rem;
-        top: 1005rem;
+        left: 36rem;
+        top: 500rem;
         font-size: xxx-large;
     }
 
     .products-pictures .creame .middle {
-       left: 40rem;
-        top: 1061rem;
+        left: 36rem;
+        top: 552rem;
         font-size: xxx-large;
     }
 
     .products-pictures .pancake .middle {
-       left: 40rem;
-        top: 1113rem;
+        left: 36rem;
+        top: 604rem;
         font-size: xxx-large;
     }
 
@@ -1975,33 +1778,21 @@ nav .links i {
     .products-pictures .creame .middle-icons,
     .products-pictures .pancake .middle-icons {
         background-color: #2804aa;
-        color: white;
-        padding: 35px 32px;
-        width: 152%;
+    color: white;
+    padding: 35px 32px;
+    width: 152%;
     }
 
     .ceo .people {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding: 48rem 0;
-        width: 107rem;
-        margin: -36rem;
-        margin-bottom: -83rem;
+        padding: 2rem;
+        width: 121%;
     }
 
     .ceo .hear {
-        font-size: 5rem;
-        width: 63rem;
-        box-sizing: border-box;
-        margin: -37rem;
-
-    }
-
-    .ceo .hear span{
-        margin: 0 21rem;
-        font-size: smaller;
-        width: 100%;
+        font-size: 3rem;
     }
 
     .ceo .contains1,
@@ -2024,16 +1815,15 @@ nav .links i {
     }
 
     .footer {
-        margin: -5rem;
+        margin: auto;
     }
 
     .footer .all-roxina {
         display: flex;
         font-size: xxx-large;
-        margin: -37rem;
     }
 
-    /* .footer .all-roxina .roxina-left .logo {
+    .footer .all-roxina .roxina-left .logo {
         width: 88%;
     }
 
@@ -2054,7 +1844,7 @@ nav .links i {
         padding: 26rem 0;
         margin: 371px -449px;
         padding-bottom: 0;
-    } */
+    }
 }
 
 @media (max-width:1200px) {
@@ -2075,7 +1865,7 @@ nav .links i {
     .mobile-nav {
         padding: 1rem;
         position: fixed;
-        top: 0;
+        top: 8px;
         right: 0;
         bottom: 0;
         width: 171px;
