@@ -21,9 +21,6 @@ header {
 
 .container {
     width: 90%;
-    margin: auto;
-    height: 100%;
-    padding: 2rem 0;
 }
 
 nav.sticky {
@@ -152,9 +149,7 @@ nav .links i {
 }
 
 .second-header {
-    margin-bottom: 2rem;
-    margin-top: 8rem;
-
+    margin: 7rem 5rem;
 }
 
 .second-header .title {
@@ -220,6 +215,7 @@ nav .links i {
     padding: 4rem 0;
     /* justify-content: center; */
     justify-items: center;
+    padding-left: 14rem;
 }
 
 .second-part .solution {
@@ -534,12 +530,12 @@ nav .links i {
 
 .third-part {
     background-image: url("https://html.waituk.com/roxine/img/big-15.jpg");
-    width: 102%;
+    width: 100%;
     background-size: cover;
     background-color: rgba(15, 15, 15, 0.664);
     background-blend-mode: darken;
     background-repeat: no-repeat;
-    padding: 3rem 0;
+    padding: 3rem 6rem;
 }
 
 .third-part p {
@@ -620,7 +616,7 @@ nav .links i {
     grid-template-areas: 'pillow bags powder '
         'towel creame pancake';
     padding: 1rem;
-    /* margin-left: 3rem; */
+    padding-left: 10rem;
 }
 
 .products-pictures img {
@@ -665,8 +661,8 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 534%;
-    left: 16%;
+    top: 148rem;
+    left: 22%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
@@ -675,7 +671,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 543%;
+    top: 148rem;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -685,8 +681,8 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 543%;
-    left: 83%;
+    top: 148rem;
+    left: 76%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
@@ -696,7 +692,7 @@ nav .links i {
     opacity: 0;
     position: absolute;
     top: 616%;
-    left: 15%;
+    left: 22%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
@@ -716,7 +712,7 @@ nav .links i {
     opacity: 0;
     position: absolute;
     top: 616%;
-    left: 83%;
+    left: 76%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
@@ -730,6 +726,10 @@ nav .links i {
     background-color: #2804aa;
     color: white;
     padding: 16px 32px;
+}
+
+.brand{
+    margin: 0 16rem;
 }
 
 .brand h6 {
@@ -812,13 +812,14 @@ nav .links i {
 
 .culture {
     background-image: url(https://html.waituk.com/roxine/img/big-01.jpg);
-    width: 102%;
+    width: 100%;
     height: 983px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 55px;
     background-blend-mode: darken;
     background-color: #c2c2c2;
+    padding-left: 10rem;
 }
 
 .contain-culture {
@@ -893,12 +894,13 @@ nav .links i {
     justify-content: space-evenly;
     align-items: center;
     padding: 4rem 0;
+    padding-left: 5rem;
 }
 
 .big-team .img-team .team-member1,
 .big-team .img-team .team-member2,
 .big-team .img-team .team-member3 {
-    width: 23%;
+    width: 26%;
     display: inline-block;
     background-color: #e2e0dc;
     border-radius: 12px;
@@ -1138,7 +1140,7 @@ nav .links i {
     width: 100%;
     margin-top: 20px;
     padding: 4rem;
-    /* height: 318px; */
+    padding-left: 6rem;
 }
 
 .ceo .hear {
@@ -1235,7 +1237,7 @@ nav .links i {
     background-color: #0d0125c8;
     width: 102%;
     margin-top: 60px;
-    /* height: 317px; */
+    padding-left: 8rem;
 }
 
 .footer .all-roxina {
@@ -1501,6 +1503,12 @@ nav .links i {
 /*  mobile screen */
 @media all and (max-width: 400px) {
 
+    /* * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    } */
+
     body {
         margin: auto;
         overflow-x: hidden;
@@ -1515,7 +1523,7 @@ nav .links i {
     .third-part {
         width: 100%;
         box-sizing: border-box;
-        padding: 1px 44rem;
+        padding: 1rem 48rem;
     }
 
     .container {
@@ -1525,10 +1533,10 @@ nav .links i {
     nav.mobile-nav {
         padding: 1rem;
         position: fixed;
-        top: 2px;
-        right: 7rem;
-        bottom: 80.8rem;
-        width: 171px;
+        top: 0;
+        right: 39px;
+        bottom: 74.8rem;
+        width: 191px;
         z-index: 5;
         background-color: #656565;
     }
@@ -1544,7 +1552,7 @@ nav .links i {
         /* margin: 0px; */
         margin-top: 0;
         transition: all 1s linear;
-        width: 94%;
+        width: 100%;
     }
 
     .second-header {
@@ -1593,8 +1601,8 @@ nav .links i {
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
-        margin: 0 12rem;
-        padding: 1rem 19rem;
+        margin: 0 -13rem;
+        padding: 2rem 28rem;
     }
 
     .second-part .pixel .content,
@@ -1602,10 +1610,10 @@ nav .links i {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 71rem;
+        width: 58rem;
         font-size: xxx-large;
         padding-top: 92px;
-        margin: 0 -26rem;
+        margin: 0 -20rem;
     }
 
     .second-part .pixel h5,
@@ -1690,10 +1698,10 @@ nav .links i {
     .img-team {
         flex-direction: column;
         align-items: baseline;
-        width: 337rem;
+        width: 310rem;
         gap: 4rem;
         padding-top: 11rem;
-        padding: 18rem 5rem;
+        padding: 18rem 2rem;
         box-sizing: border-box;
     }
 
@@ -1730,15 +1738,9 @@ nav .links i {
         font-size: xxx-large;
     }
 
-    .ceo{
-        width: 87rem;
-        box-sizing: border-box;
-        height: 150rem;
-    }
-
     .brand h6 {
         font-size: 81px;
-        width: 182%;
+        width: 40rem;
     }
 
     .brand h2 {
@@ -1752,7 +1754,7 @@ nav .links i {
     }
 
     .brand img {
-        width: 73%;
+        width: 13rem;
     }
 
     .lorem {
@@ -1804,44 +1806,44 @@ nav .links i {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 72rem;
-        margin: 3rem 5rem;
+        width: 84rem;
+        margin: 3rem -1rem;
         box-sizing: border-box;
     }
 
     .products-pictures .pillow .middle {
-        left: 35rem;
-        top: 398rem;
+        left: 42rem;
+        top: 422rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-        left: 35rem;
-        top: 444rem;
+        left: 42rem;
+        top: 476rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-        left: 35rem;
-        top: 446rem;
+        left: 42rem;
+        top: 532rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-        left: 35rem;
-        top: 540rem;
-        font-size: xxx-large;
-    }
-
-    .products-pictures .creame .middle {
-        left: 35rem;
+        left: 42rem;
         top: 589rem;
         font-size: xxx-large;
     }
 
+    .products-pictures .creame .middle {
+        left: 42rem;
+        top: 644rem;
+        font-size: xxx-large;
+    }
+
     .products-pictures .pancake .middle {
-        left: 35rem;
-        top: 634rem;
+        left: 42rem;
+        top: 698rem;
         font-size: xxx-large;
     }
 
@@ -1857,12 +1859,19 @@ nav .links i {
         width: 152%;
     }
 
+    .ceo{
+        width: 92rem;
+        box-sizing: border-box;
+        height: 150rem;
+        margin: -8rem -4rem;
+    }
+
     .ceo .people {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding: 2rem;
-        width: 121%;
+        padding: 2rem 4rem;
+        width: 109rem;
     }
 
     .ceo .hear {
@@ -1890,8 +1899,11 @@ nav .links i {
 
     .footer {
         margin: auto;
-        padding: 33rem 44rem;
+        padding: 33rem 46rem;
         padding-top: 1rem;
+        margin: 1rem -4rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .footer .all-roxina {
@@ -1937,6 +1949,12 @@ nav .links i {
         font-size: 1.5rem;
         padding: 0 69px;
         color: #ffff;
+    }
+
+    .container{
+        width: 100%;
+        max-width: 1200px;
+        min-width: 600px;
     }
 
     .mobile-nav {
