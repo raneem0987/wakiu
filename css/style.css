@@ -1296,6 +1296,9 @@ nav .links i {
     body {
         margin: auto;
         overflow-x: hidden;
+        max-width: 1200px; /* أقصى عرض سيكون 1200 بكسل */
+        width: 100%; /* العرض يكون 100% في حالة أن العرض أقل من 1200 بكسل */
+        margin: 0 auto; 
     }
 
     header,
@@ -1501,6 +1504,9 @@ nav .links i {
     body {
         margin: auto;
         overflow-x: hidden;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto; 
     }
 
     header,
@@ -1522,7 +1528,7 @@ nav .links i {
         position: fixed;
         top: 2px;
         right: 109px;
-        bottom: 129rem;
+        bottom: 110.8rem;
         width: 171px;
         z-index: 5;
         background-color: #656565;
@@ -1880,8 +1886,8 @@ nav .links i {
 
     nav.mobile-nav .close-menu {
         position: absolute;
-        right: 2rem;
-        top: 1rem;
+        right: 3rem;
+        top: 3rem;
         font-size: 1.5rem;
         transition: all 0.5s linear;
         cursor: pointer;
