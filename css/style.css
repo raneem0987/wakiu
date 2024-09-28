@@ -1499,7 +1499,7 @@ nav .links i {
 }
 
 /*  mobile screen */
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
 
     body {
         margin: auto;
@@ -1511,7 +1511,6 @@ nav .links i {
     }
 
     header,
-    .footer,
     .culture,
     .third-part {
         width: 100%;
@@ -1594,7 +1593,7 @@ nav .links i {
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
-        margin: 0 4rem;
+        margin: 0 12rem;
         padding: 1rem 19rem;
     }
 
@@ -1656,11 +1655,11 @@ nav .links i {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 72rem;
+        width: 80rem;
     }
 
     .team {
-        padding: 0 15rem;
+        padding: 0 22rem;
     }
 
     .team p {
@@ -1691,7 +1690,7 @@ nav .links i {
     .img-team {
         flex-direction: column;
         align-items: baseline;
-        width: 269rem;
+        width: 337rem;
         gap: 4rem;
         padding-top: 11rem;
         padding: 18rem 5rem;
@@ -1732,7 +1731,7 @@ nav .links i {
     }
 
     .ceo{
-        width: 71rem;
+        width: 87rem;
         box-sizing: border-box;
         height: 150rem;
     }
@@ -1806,42 +1805,42 @@ nav .links i {
         gap: 3rem;
         text-align: center;
         width: 72rem;
-        margin: 3rem -1rem;
+        margin: 3rem 5rem;
         box-sizing: border-box;
     }
 
     .products-pictures .pillow .middle {
-        left: 30rem;
+        left: 35rem;
         top: 398rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-        left: 30rem;
+        left: 35rem;
         top: 444rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-        left: 30rem;
+        left: 35rem;
         top: 446rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-        left: 30rem;
+        left: 35rem;
         top: 540rem;
         font-size: xxx-large;
     }
 
     .products-pictures .creame .middle {
-        left: 30rem;
+        left: 35rem;
         top: 589rem;
         font-size: xxx-large;
     }
 
     .products-pictures .pancake .middle {
-        left: 30rem;
+        left: 35rem;
         top: 634rem;
         font-size: xxx-large;
     }
@@ -1891,8 +1890,8 @@ nav .links i {
 
     .footer {
         margin: auto;
-        padding: 33rem 36rem;
-        width: 100%;
+        padding: 33rem 44rem;
+        padding-top: 1rem;
     }
 
     .footer .all-roxina {
