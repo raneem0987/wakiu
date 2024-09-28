@@ -1,6 +1,11 @@
+body {
+    margin: auto;
+    overflow-x: hidden;
+}
+
 header {
     background-image: url("https://html.waituk.com/roxine/img/big-14.jpg");
-    width: 100%;
+    width: 102%;
     background-size: cover;
     background-color: rgba(15, 15, 15, 0.664);
     /* make picture darker */
@@ -9,7 +14,8 @@ header {
     padding: 3rem 0;
     /* user can't select text or copy it */
     user-select: none;
-    
+    padding-bottom: 8rem;
+    /* margin: 0 8rem; */
 }
 
 .container {
@@ -27,18 +33,19 @@ nav.sticky {
     background-color: #656565;
     z-index: 1000;
     position: fixed;
-    margin: 8px 0 0 7px;
+    /* margin: 0px; */
     margin-top: 0;
     transition: all 1s linear;
+    width: 100%;
 }
 
-nav.desktop-nav .menubar-icon{
+nav.desktop-nav .menubar-icon {
     display: none;
 }
 
-.hide{
+/* .hide{
     display: none;
-}
+} */
 
 nav {
     width: 99%;
@@ -46,7 +53,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: transparent; 
+    background-color: transparent;
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -145,7 +152,7 @@ nav .links i {
 
 .second-header {
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 8rem;
 
 }
 
@@ -526,7 +533,7 @@ nav .links i {
 
 .third-part {
     background-image: url("https://html.waituk.com/roxine/img/big-15.jpg");
-    width: 100%;
+    width: 102%;
     background-size: cover;
     background-color: rgba(15, 15, 15, 0.664);
     background-blend-mode: darken;
@@ -611,6 +618,8 @@ nav .links i {
     gap: 20px;
     grid-template-areas: 'pillow bags powder '
         'towel creame pancake';
+    padding: 1rem;
+    /* margin-left: 3rem; */
 }
 
 .products-pictures img {
@@ -655,7 +664,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 315%;
+    top: 534%;
     left: 16%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -665,7 +674,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 315%;
+    top: 543%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -675,7 +684,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 315%;
+    top: 543%;
     left: 83%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -685,7 +694,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 363%;
+    top: 616%;
     left: 15%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -695,7 +704,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 363%;
+    top: 616%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -705,7 +714,7 @@ nav .links i {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 363%;
+    top: 616%;
     left: 83%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -802,7 +811,7 @@ nav .links i {
 
 .culture {
     background-image: url(https://html.waituk.com/roxine/img/big-01.jpg);
-    width: 100%;
+    width: 102%;
     height: 983px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1223,7 +1232,7 @@ nav .links i {
 
 .footer {
     background-color: #0d0125c8;
-    width: 100%;
+    width: 102%;
     margin-top: 60px;
     /* height: 317px; */
 }
@@ -1439,28 +1448,37 @@ nav .links i {
 /*  mobile screen */
 @media all and (max-width: 500px) {
 
+    body {
+        margin: auto;
+        overflow-x: hidden;
+    }
+
     header,
     .footer,
     .ceo,
     .culture,
     .third-part,
     .big-team {
-        width: 365%;
-        padding: 1rem;
+        width: 389%;
+        /* margin: 0 17rem; */
+    }
+
+    .container {
+        padding: 0 7rem;
     }
 
     nav.mobile-nav {
         padding: 1rem;
         position: fixed;
-        top: 8px;
-        right: 151px;
-        bottom: 121.3rem;
+        top: 1px;
+        right: 158px;
+        bottom: 140.1rem;
         width: 171px;
         z-index: 5;
         background-color: #656565;
-      }
+    }
 
-    .second-header{
+    .second-header {
         padding: 1rem 0;
     }
 
@@ -1484,10 +1502,11 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 371%;
+        width: 341%;
         margin-bottom: 15px;
         text-align: center;
         height: 35rem;
+        margin: 0 4rem;
     }
 
     .second-part .pixel .content,
@@ -1495,7 +1514,7 @@ nav .links i {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 88rem;
+        width: 71rem;
         font-size: xxx-large;
         padding-top: 92px;
 
@@ -1525,7 +1544,7 @@ nav .links i {
         font-size: smaller;
     }
 
-    .second-part .solution .divider img{
+    .second-part .solution .divider img {
         width: 14%;
         padding: 2rem 0;
     }
@@ -1536,7 +1555,7 @@ nav .links i {
         padding: 3rem 0;
         justify-content: center;
         text-align: center;
-        width: 91rem;
+        width: 89rem;
     }
 
     .team {
@@ -1616,25 +1635,26 @@ nav .links i {
         width: 73%;
     }
 
-    .lorem{
+    .lorem {
         display: flex;
         flex-direction: column;
+        padding: 0 8rem;
     }
 
     .lorem .lorem-left p {
-        width: 312%;
+        width: 461%;
         font-size: xx-large;
         line-height: 3rem;
     }
 
-    .lorem .lorem-left button{
+    .lorem .lorem-left button {
         width: 20rem;
         height: 7rem;
         font-size: xx-large;
     }
 
     .lorem .lorem-right p {
-        width: 199%;
+        width: 461%;
         font-size: xxx-large;
         line-height: 4rem;
         padding: 4rem 0rem;
@@ -1655,52 +1675,63 @@ nav .links i {
         flex-direction: column;
         gap: 3rem;
         text-align: center;
-        width: 357%;
+        width: 334%;
     }
 
     .products-pictures .pillow .middle {
-        left: 48rem;
-        top: 345rem;
+        left: 36rem;
+        top: 337rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-        left: 48rem;
-        top: 415rem;
+        left: 36rem;
+        top: 392rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-        left: 48rem;
-        top: 486rem;
+        left: 36rem;
+        top: 446rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-        left: 48rem;
-        top: 557rem;
+        left: 36rem;
+        top: 500rem;
         font-size: xxx-large;
     }
 
     .products-pictures .creame .middle {
-        left: 48rem;
-        top: 629rem;
+        left: 36rem;
+        top: 552rem;
         font-size: xxx-large;
     }
 
     .products-pictures .pancake .middle {
-        left: 48rem;
-        top: 699rem;
+        left: 36rem;
+        top: 604rem;
         font-size: xxx-large;
+    }
+
+    .products-pictures .pillow .middle-icons,
+    .products-pictures .bags .middle-icons,
+    .products-pictures .powder .middle-icons,
+    .products-pictures .towel .middle-icons,
+    .products-pictures .creame .middle-icons,
+    .products-pictures .pancake .middle-icons {
+        background-color: #2804aa;
+    color: white;
+    padding: 35px 32px;
+    width: 152%;
     }
 
     .ceo .people {
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        padding: 2rem 8rem;
+        padding: 2rem;
         width: 121%;
-
     }
 
     .ceo .hear {
@@ -1758,62 +1789,62 @@ nav .links i {
     }
 }
 
-@media (max-width:1200px){
+@media (max-width:1200px) {
 
-    
-  nav.desktop-nav .links {
-    display: none;
-  }
 
-  nav.desktop-nav .menubar-icon {
-    display: inline-flex;
-    cursor: pointer;
-    font-size: 1.5rem;
-    padding: 0 69px;
-    color: #ffff;
-  }
+    nav.desktop-nav .links {
+        display: none;
+    }
 
-  .mobile-nav {
-    padding: 1rem;
-    position: fixed;
-    top: 8px;
-    right: 0;
-    bottom: 0;
-    width: 171px;
-    z-index: 5;
-    background-color: #656565;
+    nav.desktop-nav .menubar-icon {
+        display: inline-flex;
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 0 69px;
+        color: #ffff;
+    }
 
-  }
+    .mobile-nav {
+        padding: 1rem;
+        position: fixed;
+        top: 8px;
+        right: 0;
+        bottom: 0;
+        width: 171px;
+        z-index: 5;
+        background-color: #656565;
 
-  nav.mobile-nav .logo a{
-    margin: -14rem 2rem;
-    position: absolute;
-  }
+    }
 
-  nav.mobile-nav .nav .links{
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-  }
+    nav.mobile-nav .logo a {
+        margin: -14rem 2rem;
+        position: absolute;
+    }
 
-  nav.mobile-nav .close-menu {
-    position: absolute;
-    right: 2rem;
-    top: 1rem;
-    font-size: 1.5rem;
-    transition: all 0.5s linear;
-    cursor: pointer;
-    color: #ffff;
-  }
+    nav.mobile-nav .nav .links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
 
-  nav.mobile-nav .close-menu:hover {
-    color: #080808;
-  }
+    nav.mobile-nav .close-menu {
+        position: absolute;
+        right: 2rem;
+        top: 1rem;
+        font-size: 1.5rem;
+        transition: all 0.5s linear;
+        cursor: pointer;
+        color: #ffff;
+    }
+
+    nav.mobile-nav .close-menu:hover {
+        color: #080808;
+    }
 
 }
 
-@media (min-width:1400px){
-    nav.mobile-nav{
+@media (min-width:1400px) {
+    nav.mobile-nav {
         display: none;
     }
 }
