@@ -1293,12 +1293,28 @@ nav .links i {
 
 @media all and (max-width: 992px) {
 
+    body {
+        margin: auto;
+        overflow-x: hidden;
+    }
+
     header,
     .footer,
     .culture,
     .third-part,
     .big-team {
-        width: 126%;
+        width: 119.8%;
+    }
+
+    nav.mobile-nav {
+        padding: 28.1rem 0;
+        position: fixed;
+        top: 0px;
+        right: 71px;
+        bottom: 129rem;
+        width: 171px;
+        z-index: 5;
+        background-color: #656565;
     }
 
     .second-part .flex {
@@ -1321,10 +1337,11 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 126%;
+        width: 95%;
         margin-bottom: 15px;
         text-align: center;
-        height: 19rem;
+        /* height: 35rem; */
+        margin: 0 5rem;
     }
 
     .second-part .pixel .content,
@@ -1370,40 +1387,40 @@ nav .links i {
     }
 
     .products-pictures {
-        padding: 0 31px;
+        padding: 0 43px;
         display: flex;
         flex-direction: column;
-        width: 117%;
+        width: 107%;
     }
 
     .products-pictures .pillow .middle {
-        left: 61%;
-        top: 245rem;
+        left: 57%;
+        top: 232rem;
     }
 
     .products-pictures .bags .middle {
-        left: 61%;
-        top: 281rem;
+        left: 57%;
+        top: 266rem;
     }
 
     .products-pictures .powder .middle {
-        left: 61%;
-        top: 316rem;
+        left: 57%;
+        top: 299rem;
     }
 
     .products-pictures .towel .middle {
-        left: 61%;
-        top: 351rem;
+        left: 57%;
+        top: 331rem;
     }
 
     .products-pictures .creame .middle {
-        left: 61%;
-        top: 386rem;
+        left: 57%;
+        top: 366rem;
     }
 
     .products-pictures .pancake .middle {
-        left: 61%;
-        top: 423rem;
+        left: 57%;
+        top: 397rem;
     }
 
     .tracks {
@@ -1443,6 +1460,39 @@ nav .links i {
     .contains3 {
         max-width: 63%;
     }
+
+    .footer {
+        margin: auto;
+    }
+
+    .footer .all-roxina {
+        display: flex;
+        font-size: xxx-large;
+    }
+
+    .footer .all-roxina .roxina-left .logo {
+        width: 88%;
+    }
+
+    .footer .roxina-left .roxina-left-under {
+        padding: 5rem 0;
+    }
+
+    .footer .all-roxina .roxina-center {
+        margin: 28rem -2rem;
+        position: absolute;
+    }
+
+    .footer .all-roxina .roxina-center ul {
+        line-height: 63px;
+    }
+
+    .footer .all-roxina .roxina-right ul {
+        padding: 26rem 0;
+        margin: 371px -449px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 
 /*  mobile screen */
@@ -1470,9 +1520,9 @@ nav .links i {
     nav.mobile-nav {
         padding: 1rem;
         position: fixed;
-        top: 1px;
-        right: 158px;
-        bottom: 140.1rem;
+        top: 2px;
+        right: 109px;
+        bottom: 129rem;
         width: 171px;
         z-index: 5;
         background-color: #656565;
@@ -1786,6 +1836,7 @@ nav .links i {
     .footer .all-roxina .roxina-right ul {
         padding: 26rem 0;
         margin: 371px -449px;
+        padding-bottom: 0;
     }
 }
 
