@@ -1,6 +1,7 @@
 body {
     margin: auto;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 header {
@@ -1296,8 +1297,7 @@ nav .links i {
     body {
         margin: auto;
         overflow-x: hidden;
-        max-width: 1200px; /* أقصى عرض سيكون 1200 بكسل */
-        width: 100%; /* العرض يكون 100% في حالة أن العرض أقل من 1200 بكسل */
+        box-sizing: border-box;
         margin: 0 auto; 
     }
 
@@ -1507,6 +1507,7 @@ nav .links i {
         max-width: 1200px;
         width: 100%;
         margin: 0 auto; 
+        box-sizing: border-box;
     }
 
     header,
