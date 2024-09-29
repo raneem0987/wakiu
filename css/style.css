@@ -1308,7 +1308,9 @@ nav .links i {
     .culture,
     .third-part,
     .big-team {
-        width: 119.8%;
+        width: 51rem;
+        padding: 1rem;
+        box-sizing: border-box;
     }
 
     nav.mobile-nav {
@@ -1325,6 +1327,7 @@ nav .links i {
     .second-part .flex {
         flex-direction: column;
         display: flex;
+        padding: 4rem 1rem;
     }
 
     .second-part .solution p,
@@ -1342,11 +1345,11 @@ nav .links i {
     .second-part .flex .layers,
     .second-part .flex .grid,
     .second-part .flex .solution {
-        width: 95%;
+        width: 100%;
         margin-bottom: 15px;
         text-align: center;
-        /* height: 35rem; */
-        margin: 0 5rem;
+        height: 19rem;
+        margin: 0 3rem;
     }
 
     .second-part .pixel .content,
@@ -1354,7 +1357,7 @@ nav .links i {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 40rem;
+        width: 37rem;
         font-size: large;
     }
 
@@ -1364,6 +1367,7 @@ nav .links i {
     .second-part .layers h5,
     .second-part .grid h5 {
         padding-top: 21px;
+        font-size: larger;
     }
 
     .second-part .pixel p,
@@ -1371,7 +1375,7 @@ nav .links i {
     .second-part .fonts p,
     .second-part .layers p,
     .second-part .grid p {
-        font-size: smaller;
+        font-size: large;
     }
 
     .second-part .pixel .a2,
@@ -1392,10 +1396,10 @@ nav .links i {
     }
 
     .products-pictures {
-        padding: 0 43px;
+        padding: 0 46px;
         display: flex;
         flex-direction: column;
-        width: 107%;
+        width: 100%;
     }
 
     .products-pictures .pillow .middle {
@@ -1428,6 +1432,23 @@ nav .links i {
         top: 397rem;
     }
 
+    .brand h6{
+        width: 17rem;
+    }
+
+    .brand h2{
+        width: 22rem;
+    }
+
+    .brand p{
+        width: 20rem;
+    }
+
+    .img-team{
+        margin: -5rem;
+        padding: 8rem 2rem;
+    }
+
     .tracks {
         display: flex;
         flex-direction: column;
@@ -1441,8 +1462,17 @@ nav .links i {
         padding: 1rem 38px;
     }
 
+    .lorem .lorem-left{
+        font-size: large;
+    }
+
+    .lorem .lorem-right{
+        padding: 0 3rem;
+        font-size: large;
+    }
+
     .ceo {
-        width: 108%;
+        width: 100%;
     }
 
     .ceo .hear {
@@ -1764,7 +1794,7 @@ nav .links i {
     }
 
     .lorem .lorem-left p {
-        width: 461%;
+        width: 461rem;
         font-size: xx-large;
         line-height: 3rem;
     }
@@ -1776,7 +1806,7 @@ nav .links i {
     }
 
     .lorem .lorem-right p {
-        width: 461%;
+        width: 461rem;
         font-size: xxx-large;
         line-height: 4rem;
         padding: 4rem 0rem;
@@ -1856,7 +1886,7 @@ nav .links i {
         background-color: #2804aa;
         color: white;
         padding: 35px 32px;
-        width: 152%;
+        width: 18rem;
     }
 
     .ceo{
