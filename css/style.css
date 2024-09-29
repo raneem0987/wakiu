@@ -900,7 +900,7 @@ nav .links i {
 .big-team .img-team .team-member1,
 .big-team .img-team .team-member2,
 .big-team .img-team .team-member3 {
-    width: 26%;
+    width: 27%;
     display: inline-block;
     background-color: #e2e0dc;
     border-radius: 12px;
@@ -1566,9 +1566,7 @@ nav .links i {
         box-sizing: border-box;
     }
 
-    header,
-    .culture,
-    .third-part {
+    header,.third-part, .culture {
         width: 100%;
         box-sizing: border-box;
         padding: 1rem 48rem;
@@ -1628,6 +1626,8 @@ nav .links i {
     .second-part .flex {
         flex-direction: column;
         display: flex;
+        width: 90%;
+        margin: 0 7rem;
     }
 
     .second-part .solution p,
@@ -1658,9 +1658,9 @@ nav .links i {
     .second-part .fonts .contain3,
     .second-part .layers .contain4,
     .second-part .grid .contain5 {
-        width: 58rem;
+        width: 70rem;
         font-size: xxx-large;
-        padding-top: 92px;
+        padding-top: 41px;
         margin: 0 -20rem;
     }
 
@@ -1691,6 +1691,12 @@ nav .links i {
     .second-part .solution .divider img {
         width: 42%;
         padding: 2rem 0;
+    }
+
+    .third-part, .culture{
+        width: 100%;
+        box-sizing: border-box;
+        margin: 2rem -7rem;
     }
 
     .third-part p {
@@ -1860,38 +1866,38 @@ nav .links i {
     }
 
     .products-pictures .pillow .middle {
-        left: 42rem;
-        top: 422rem;
+        left: 47rem;
+        top: 425rem;
         font-size: xxx-large;
     }
 
     .products-pictures .bags .middle {
-        left: 42rem;
-        top: 476rem;
+        left: 47rem;
+        top: 483rem;
         font-size: xxx-large;
     }
 
     .products-pictures .powder .middle {
-        left: 42rem;
-        top: 532rem;
+        left: 47rem;
+        top: 537rem;
         font-size: xxx-large;
     }
 
     .products-pictures .towel .middle {
-        left: 42rem;
+        left: 47rem;
         top: 589rem;
         font-size: xxx-large;
     }
 
     .products-pictures .creame .middle {
-        left: 42rem;
-        top: 644rem;
+        left: 47rem;
+        top: 647rem;
         font-size: xxx-large;
     }
 
     .products-pictures .pancake .middle {
-        left: 42rem;
-        top: 698rem;
+        left: 47rem;
+        top: 702rem;
         font-size: xxx-large;
     }
 
@@ -1908,10 +1914,10 @@ nav .links i {
     }
 
     .ceo{
-        width: 92rem;
+        width: 94rem;
         box-sizing: border-box;
         height: 150rem;
-        margin: -8rem -4rem;
+        margin: -8rem -7rem;
     }
 
     .ceo .people {
@@ -1946,12 +1952,12 @@ nav .links i {
     }
 
     .footer {
-        margin: auto;
-        padding: 33rem 46rem;
+        padding: 33rem 47rem;
         padding-top: 1rem;
         margin: 1rem -4rem;
         width: 100%;
         box-sizing: border-box;
+        margin: 0 -7rem;
     }
 
     .footer .all-roxina {
